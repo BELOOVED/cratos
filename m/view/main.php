@@ -92,7 +92,7 @@
 
 
 
-    <script type="text/javascript" src="Scripts/mobile/JQueryUI/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/Scripts/mobile/JQueryUI/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript">
         $(document).on("mobileinit", function () {/// init must before jquery.mobil link
             $.mobile.ajaxEnabled = false;
@@ -101,11 +101,11 @@
             $.mobile.pushStateEnabled = false;
         });
     </script>
-    <script type="text/javascript" src="Scripts/mobile/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <script type="text/javascript" src="Scripts/mobile/JQueryUI/js/jquery-ui-1.10.4.custom.min.js"></script>
-    <script type="text/javascript" src="Scripts/mobile/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="Scripts/jquery.validate.js"></script>
-    <script type="text/javascript" src="Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="assets/Scripts/mobile/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="assets/Scripts/mobile/JQueryUI/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="assets/Scripts/mobile/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="assets/Scripts/jquery.validate.js"></script>
+    <script type="text/javascript" src="assets/Scripts/jquery.validate.unobtrusive.min.js"></script>
 
     <script src="assets/bundles/scriptsM.js?v=-BgzHe7VDpwrs-fmSJ5X30EFm62seV0GYXER2AbLshM1"></script>
 
