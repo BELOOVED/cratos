@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Metropolis'), url('https://fonts.cdnfonts.com/s/16308/Metropolis-Black.woff') format('woff');
+}
+
+#rgsWrapper {
+    position: absolute;
+    font-family: 'Metropolis';
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: rgb(0 0 0 / 50%);
+    display: none;
+}
+
+#rgsNotificationPopup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    position: relative;
+    max-width: 480px;
+    max-height: 352px;
+    width: 100%;
+    height: 100%;
+    background: #FEFEFE;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.rgsPopupIcon {
+    margin-bottom: 24px;
+}
+
+    .rgsPopupIcon img{
+        width: 78px;
+        height: 80px;
+    }
+
+.rgsPopupTitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #28282C;
+}
+
+.rgsNotificationMessage {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #68686B;
+}
+
+.rgsNotificationPriceWrapper {
+    margin-top: 8px;
+    display: flex;
+}
+
+    .rgsNotificationPriceWrapper .price {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        color: #68C56C;
+    }
+
+    .rgsNotificationPriceWrapper.currency {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #28282C;
+    }
+
+
+.rgsButtons {
+    display: flex;
+    width: 100%;
+    margin-top: 24px;
+}
+    .rgsButtons button {
+        padding: 12px 10px;
+        width: 202px;
+        height: 48px;
+        border: none;
+        border-radius: 6px;
+        cursor:pointer;
+    }
+
+    .rgsButtons .rgsCloseButton {
+        flex: 1;
+        background: #E8E8E8;
+        color: #28282C;
+        margin-right: 12px;
+    }
+
+    .rgsButtons .rgsKeepPlayingButton {
+        flex: 1;
+        background: #4060E5;
+        color: #FEFEFE;
+    }

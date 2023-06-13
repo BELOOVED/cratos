@@ -1,0 +1,74 @@
+@media (max-width: 1600px){
+.table{padding: 50px 30px 0 30px;}
+
+/************************ Thank You ***************************/
+.thank-you-text img{max-width: 600px;width: 100%;}
+
+.card-box{max-width: 600px;}
+.card-box-top .top-text{font-size: 26px;}
+.card-box-top .btm-text{font-size: 16px;}
+.form-control{height: 45px;font-size: 15px;}
+
+.form-group{margin-bottom: 15px;}
+.overlay-img .img1{height: 120px;}
+.overlay-img .img2{height: 120px;}
+
+}
+
+@media (max-width: 1440px){
+.table{padding: 30px 30px 0 30px;}
+.card-box-logo{max-width: 300px;width: 100%;margin: 0 auto 20px;}
+.card-box-center{padding: 20px 0;}
+.card-box-top .top-text{font-size: 24px;}
+.card-box-top .btm-text,
+.card-box-bottom .btm-text{font-size: 16px;}
+.form-control{border-width: 2px;-webkit-text-fill-color: white;}
+.btn-custom{font-size: 20px;}
+
+.card-box-logo{margin: 0 auto 10px;}
+.card-box-logo img{width: 150px;}
+}
+
+@media (max-width: 1366px){
+
+/************************ Thank You ***************************/
+.thank-you-text img{max-width: 500px;}
+
+}
+
+
+@media (max-width: 1199px){
+
+}
+
+@media (max-width: 1024px){
+
+
+#main{padding-top: 90px;}
+
+.card-box:after{width: 300px;height: 300px;background-size: 300px;bottom: -140px;left: -140px;}
+
+}
+
+@media (max-width: 991px){
+
+.padding-60{padding: 50px 0;}
+.padding-6030{padding: 50px 0 20px;}
+.max-width-570{max-width: 100%;}
+
+}
+
+@media (max-width: 767px){
+
+.table{background-image: url('../../kKzYnhc/RTE.jpg'); padding: 40px 15px;display: block;height: auto;min-height: 100%;}
+.table-cell{display: block;}
+.card-box{max-width: 400px;padding: 20px 15px;}
+.card-box-center{padding: 20px 0;}
+.card-box:after{width: 200px;height: 200px;background-size: 200px;bottom: -100px;left: -100px;}
+.card-box-top .top-text{font-size: 20px;margin-bottom: 10px;}
+
+.card-box{border-left-width: 3px;border-right-width: 3px;}
+.card-box:before{height: 3px;}
+.btn-custom{font-size: 18px;}
+
+}

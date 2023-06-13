@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 200;
+    src: url(static/media/BrutalType-ExtraLight.ef8881232c23fa99eb02.eot);
+    src: local("Brutal Type Extra Light"), local("BrutalType-ExtraLight"), url(static/media/BrutalType-ExtraLight.ef8881232c23fa99eb02.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType-ExtraLight.ef9c01c532320385b3ba.woff2) format("woff2"), url(static/media/BrutalType-ExtraLight.0d07414b7a36b7239c7d.woff) format("woff"), url(static/media/BrutalType-ExtraLight.d6bf09c9d3afcfec685b.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 500;
+    src: url(static/media/BrutalType-Medium.8302a6914ab6d8d5ab8a.eot);
+    src: local("Brutal Type Medium"), local("BrutalType-Medium"), url(static/media/BrutalType-Medium.8302a6914ab6d8d5ab8a.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType-Medium.99fad1f57bc1d9ee8c52.woff2) format("woff2"), url(static/media/BrutalType-Medium.cb537a4d5a8a70062080.woff) format("woff"), url(static/media/BrutalType-Medium.207ab2e77502f08f5899.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 700;
+    src: url(static/media/BrutalType-Bold.df87d17e0e53cc805d0c.eot);
+    src: local("Brutal Type Bold"), local("BrutalType-Bold"), url(static/media/BrutalType-Bold.df87d17e0e53cc805d0c.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType-Bold.75d5477a8fcc4a7339f2.woff2) format("woff2"), url(static/media/BrutalType-Bold.f2728dca236273d1d793.woff) format("woff"), url(static/media/BrutalType-Bold.079985d06ee9420435d3.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 100;
+    src: url(static/media/BrutalType-Thin.dae7b891a33fcb413109.eot);
+    src: local("Brutal Type Thin"), local("BrutalType-Thin"), url(static/media/BrutalType-Thin.dae7b891a33fcb413109.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType-Thin.a190fd81483d76ccb9b3.woff2) format("woff2"), url(static/media/BrutalType-Thin.094cbd8ea54f83f798e6.woff) format("woff"), url(static/media/BrutalType-Thin.0cf7fc412402fc0909e4.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 800;
+    src: url(static/media/BrutalType-ExtraBold.748fea56ec3a1a51fb92.eot);
+    src: local("Brutal Type Extra Bold"), local("BrutalType-ExtraBold"), url(static/media/BrutalType-ExtraBold.748fea56ec3a1a51fb92.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType-ExtraBold.4efb8121e796cad062f4.woff2) format("woff2"), url(static/media/BrutalType-ExtraBold.4fb3b08f1c3bade234e4.woff) format("woff"), url(static/media/BrutalType-ExtraBold.d5a63e8c3bed1368567a.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 900;
+    src: url(static/media/BrutalType-Black.cbe4d378166057135213.eot);
+    src: local("Brutal Type Black"), local("BrutalType-Black"), url(static/media/BrutalType-Black.cbe4d378166057135213.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType-Black.f297139c9baaa5ecc7f1.woff2) format("woff2"), url(static/media/BrutalType-Black.79c21d22defd72a75389.woff) format("woff"), url(static/media/BrutalType-Black.50f267b4cf48a0eed6f1.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 300;
+    src: url(static/media/BrutalType-Light.e7904a937f12f35c38b2.eot);
+    src: local("Brutal Type Light"), local("BrutalType-Light"), url(static/media/BrutalType-Light.e7904a937f12f35c38b2.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType-Light.5e7ad7c486bdf890a580.woff2) format("woff2"), url(static/media/BrutalType-Light.26b9a33b2b1e3b3f5c0d.woff) format("woff"), url(static/media/BrutalType-Light.3d8afa4e9a3deb239830.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Brutal Type;
+    font-style: normal;
+    font-weight: 400;
+    src: url(static/media/BrutalType.499f3b0615b3fdf207fd.eot);
+    src: local("Brutal Type"), local("BrutalType"), url(static/media/BrutalType.499f3b0615b3fdf207fd.eot?#iefix) format("embedded-opentype"), url(static/media/BrutalType.fde8b29144cd0d964ac2.woff2) format("woff2"), url(static/media/BrutalType.b44e866ef53c35e4e647.woff) format("woff"), url(static/media/BrutalType.ce21e63373e211a42497.ttf) format("truetype")
+}
+
+.dg-tm-app-wrapper {
+    --sport-digi-tp-panel-bg: var(--sport-digi-background--lighten-9);
+    --sport-digi-tp-panel-color: var(--sport-digi-background-foreground);
+    --sport-digi-tp-header-color: var(--sport-digi-foreground--opacity-40);
+    --sport-digi-tp-header-button-active-bg: var(--sport-digi-accent);
+    --sport-digi-tp-header-button-color-hover: var(--sport-digi-foreground--opacity-60);
+    --sport-digi-tp-match-header-border-color: var(--sport-digi-foreground--opacity-10);
+    --sport-digi-tp-match-color: var(--sport-digi-foreground--opacity-10);
+    --sport-digi-tp-match-date-color: var(--sport-digi-foreground--opacity-60);
+    --sport-digi-tp-odd-bg: var(--sport-digi-foreground--opacity-10);
+    --sport-digi-tp-odd-bg-hover: var(--sport-digi-accent);
+    --sport-digi-tp-odd-color: var(--sport-digi-foreground--opacity-50);
+    --sport-digi-tp-odd-color-hover: var(--sport-digi-accent-foreground);
+    --sport-digi-tp-odd-factor-color: var(--sport-digi-accent);
+    --sport-digi-tp-sports-list-color: var(--sport-digi-foreground--opacity-80);
+    --sport-digi-tp-sports-list-item-bg-hover: var(--sport-digi-background--darken-20);
+    --sport-digi-tp-sports-list-item-color-hover: var(--sport-digi-accent);
+    --sport-digi-tp-spinner-color: var(--sport-digi-accent);
+    --sport-digi-tp-team-logo-bg: var(--sport-digi-foreground--opacity-10);
+    --sport-digi-tp-border-radius: 4px;
+    --sport-digi-tp-border-radius--md: 8px;
+    box-sizing: border-box
+}
+
+.dg-tm-app-wrapper :is(*,:before,:after) {
+    box-sizing: inherit
+}
+
+[class*=imgSpr], [class^=imgSpr] {
+    background-image: url(../img/sportIcons.44ae269b6ebf57064732.png);
+    background-size: 100%
+}

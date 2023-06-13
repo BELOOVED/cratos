@@ -1,0 +1,230 @@
+function addCategoryIdToObj(n, t) {
+    n.CategoryId.push(t)
+}
+
+function removeCategoryIdFromObj(n, t) {
+    for (var i = 0; i < n.CategoryId.length; i++) n.CategoryId[i] == t && (n.CategoryId.splice(i, 1), i--)
+}
+
+function addThemeToObj(n, t) {
+    n.ThemeId.push(t)
+}
+
+function removeThemeFromObj(n, t) {
+    for (var i = 0; i < n.ThemeId.length; i++) n.ThemeId[i] == t && (n.ThemeId.splice(i, 1), i--)
+}
+
+function addTournamnetToObj(n, t) {
+    n.TournamentId.push(t)
+}
+
+function removeTournamnetFromObj(n, t) {
+    for (var i = 0; i < n.TournamentId.length; i++) n.TournamentId[i] == t && (n.TournamentId.splice(i, 1), i--)
+}
+
+function changePageUrlWithoutRefreshing(n, t) {
+    var i = window.location.origin;
+    n = i + n;
+    history.pushState({id: t}, null, n)
+}
+
+function CapitalizeText(n) {
+    return n.charAt(0).toUpperCase() + n.slice(1).toLowerCase()
+}
+
+function dlAnimate(n) {
+    return $(n).css("opacity", "0").animate({opacity: "1"}, 300)
+}
+
+function setStrFormatWithSpChar(n, t) {
+    for (var r = reverseString(n), u = "", i = 0; i < r.length; i++) u += r[i], (i + 1) % 3 == 0 && i + 1 != r.length && (u += t);
+    return reverseString(u)
+}
+
+function reverseString(n) {
+    return n.split("").reverse().join("")
+}
+
+function setDataSrc(n) {
+    let t = n.getElementsByTagName("img");
+    if (t.length > 0) {
+        let n = t[0].src;
+        t[0].src = t[0].dataset.src;
+        t[0].dataset.src = n
+    }
+}
+
+function showErrorPopup(n) {
+    clearInterval(errorPopupInterval);
+    $("#js_error_popup").remove();
+    var t = '<div class="lca-info-content" id="js_error_popup"><div class="flex flexCol w100"><div class="flex jb w100"><span class="bold">Error<\/span><span id="js_close_err_popup" class="reg_close"><\/span><\/div><span>' + n + "<\/span><\/div><\/div>";
+    $(t).hide().appendTo($("body")).fadeIn();
+    errorPopupInterval = setTimeout(function () {
+        $("#js_error_popup").fadeOut();
+        $("#js_error_popup").remove()
+    }, 7e3)
+}
+
+function setActiveClassToPrMenuItems(n) {
+    const i = document.getElementsByClassName(n), s = i.length,
+        o = document.location.href.split(document.location.host), r = o.length > 1 ? o[1] : o[0],
+        h = r.split("/").length;
+    let e = "", t = "", u = "", f = 0;
+    for (let n = 0; n < s; n++) if (i[n].classList.remove("tl_main_nav_item-active"), i[n].href) {
+        e = i[n].href.split(document.location.host);
+        t = e.length > 1 ? e[1] : e[0];
+        switch (h) {
+            case 1:
+            case 2:
+            case 3:
+                r.toLowerCase() == t.toLowerCase() && (f < t.length && (f != 0 && removeActiveClassFromItem(u), f = t.length, u = i[n]), addActiveClassToItem(u));
+                break;
+            default:
+                r.toLowerCase().includes(t.toLowerCase()) && (!r.toLowerCase().includes("#") || r.toLowerCase().includes("#") && r.toLowerCase() == t.toLowerCase()) && (f < t.length && (f != 0 && removeActiveClassFromItem(u), f = t.length, u = i[n]), addActiveClassToItem(u))
+        }
+    }
+}
+
+function addActiveClassToItem(n) {
+    n.classList.add("tl_main_nav_item-active");
+    let t = n.parentNode.parentNode;
+    t && t.classList.contains("js_header_dropdown") && t.firstElementChild.classList.add("tl_main_nav_item-active")
+}
+
+function removeActiveClassFromItem(n) {
+    n.classList.remove("tl_main_nav_item-active");
+    let t = n.parentNode.parentNode;
+    t && t.classList.contains("js_header_dropdown") && t.firstElementChild.classList.remove("tl_main_nav_item-active")
+}
+
+function removeLangParamFromUrl(n) {
+    let t = n.split("/"), i = n;
+    if (t.length > 1 && t[1].length == 2) {
+        i = "";
+        for (let n = 2; n < t.length; n++) i += "/" + t[n]
+    }
+    return i
+}
+
+function changeMetaTags(n) {
+    document.title = n;
+    let t = document.querySelector('meta[name="title"]');
+    if (t != null) t.setAttribute("content", n); else {
+        let t = document.createElement("meta");
+        t.setAttribute("name", "title");
+        t.setAttribute("content", n);
+        document.getElementsByTagName("head")[0].appendChild(t)
+    }
+    let i = document.querySelector('meta[name="description"]');
+    if (i != null) i.setAttribute("content", n); else {
+        let t = document.createElement("meta");
+        t.setAttribute("name", "description");
+        t.setAttribute("content", n);
+        document.getElementsByTagName("head")[0].appendChild(t)
+    }
+    let r = document.querySelector('meta[name="keywords"]');
+    if (r != null) r.setAttribute("content", n); else {
+        let t = document.createElement("meta");
+        t.setAttribute("name", "keywords");
+        t.setAttribute("content", n);
+        document.getElementsByTagName("head")[0].appendChild(t)
+    }
+}
+
+function showInfoPopup(n, t, i) {
+    let r = i != "undefined" && i != "" ? i : "Close",
+        u = `<div class="backdrop open" id="js_info_popup_cont"> <div class="join-popup"> <div class="join-popup__head"> <p class="join__head">${n}</p></div>` + `<div class="join-popup__body"> <p class="join__head">${t}</p></div><div class="join-popup__footer">` + `<button data-role="none" class="btn-transparent" type="button" id="js_close_info_popup">${r}</button></div></div></div>`;
+    $("body").append(dlAnimate(u));
+    document.body.classList.add("ofh")
+}
+
+function closeInfoPopup() {
+    document.getElementById("js_info_popup_cont") != null && document.getElementById("js_info_popup_cont").remove();
+    document.body.classList.remove("ofh")
+}
+
+function createToast(n, t, i, r) {
+    var u = document.createElement("div"), o, e, h, s, f;
+    u.classList.add("toast");
+    n && u.classList.add(n);
+    o = document.createElement("p");
+    o.classList.add("t-title");
+    e = "";
+    n == "system" ? e = '<span class="dynaimc_icon">&#57876<\/span>' : n == "success" ? e = '<span class="dynamic_icon">&#57489<\/span>' : n == "warning" ? e = '<span class="dynamic_icon">&#57972<\/span>' : n == "error" && (e = '<span class="dynamic_icon">&#57476<\/span>');
+    o.innerHTML += e + t;
+    u.appendChild(o);
+    h = document.createElement("p");
+    h.classList.add("t-close");
+    u.appendChild(h);
+    s = document.createElement("p");
+    s.classList.add("t-text");
+    s.innerHTML = i;
+    u.appendChild(s);
+    f = document.getElementById("js-toast-cont");
+    f == null && (f = document.createElement("div"), f.classList.add("toast-container"), f.id = "js-toast-cont", document.body.appendChild(f));
+    f.appendChild(u);
+    setTimeout(function () {
+        u.classList.add("active")
+    }, 1);
+    r > 0 ? setTimeout(function () {
+        u.classList.remove("active");
+        setTimeout(function () {
+            u.remove()
+        }, 350)
+    }, r) : r == null && setTimeout(function () {
+        u.classList.remove("active");
+        setTimeout(function () {
+            u.remove()
+        }, 350)
+    }, 3e3)
+}
+
+function lazyLoadImages(n) {
+    let t = document.getElementById(n).getElementsByTagName("img"), i = t.length;
+    for (let n = 0; n < i; n++) t[n].dataset.src && (t[n].src = t[n].dataset.src, t[n].removeAttribute("data-lazy"))
+}
+
+function checkVideoOnScroll() {
+    var n = $(".swiper-slide-active").find("#js_observe")[0];
+    if (n) {
+        var t = n.offsetWidth, i = n.offsetHeight, r, u,
+            f = Math.max(0, Math.min(t, window.pageXOffset + window.innerWidth, t - window.pageXOffset));
+        r = Math.max(0, Math.min(i, window.pageYOffset + window.innerHeight, i - window.pageYOffset));
+        u = f * r / (t * i);
+        u > 0 ? n.play() : n.pause()
+    }
+}
+
+function playAndMuteBannerVideo(n) {
+    let t = $(n).find("video"), i = "";
+    if (typeof $(n).parents(".swiper-initialized")[0].swiper != "undefined" && (i = $(n).parents(".swiper-initialized")[0].swiper), t) {
+        i != "" && i.autoplay.start();
+        for (let n = 0; n < t.length; n++) t[n] && (t[n].muted = !0, $(t[n]).siblings(".js_slick_pause").addClass("muted"))
+    }
+}
+
+var errorPopupInterval;
+document.addEventListener("click", function (n) {
+    if (n.target.matches(".t-close")) {
+        var t = n.target.parentElement;
+        t.classList.remove("active");
+        setTimeout(function () {
+            t.remove()
+        }, 350)
+    } else return
+});
+$(document).on("click", "#js_close_err_popup", function () {
+    clearInterval(errorPopupInterval);
+    $("#js_error_popup").remove()
+});
+$(document).on("click", ".js_banner_video_link", function (n) {
+    if ($(n.target).hasClass("js_slick_pause") || $(n.target).parents().hasClass("js_slick_pause")) {
+        let r = $(n.target).hasClass("js_slick_pause") ? n.target : $(n.target).parents(".js_slick_pause")[0],
+            i = $(r).siblings("video")[0], t = "";
+        $(this).parents(".swiper-initialized").length > 0 && typeof $(this).parents(".swiper-initialized")[0].swiper != "undefined" && (t = $(this).parents(".swiper-initialized")[0].swiper);
+        i && (i.muted ? (i.muted = !1, $(r).removeClass("muted"), t != "" && t.autoplay.stop()) : ($(r).addClass("muted"), i.muted = !0, t != "" && t.autoplay.start()))
+    } else if ($(this).attr("data-href")) {
+        let n = $(this).attr("data-target");
+        n == "_self" ? location.href = $(this).attr("data-href") : window.open($(this).attr("data-href"), "_blank").focus()
+    }
+})

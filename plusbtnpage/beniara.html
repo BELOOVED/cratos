@@ -1,0 +1,77 @@
+﻿<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Grandpashabet</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="css/css2.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stylee.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaa.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="grandpashabet, grandpashabet giriş, grandpashabet giriş, grandpashabet güncel, grandpashabet güncel giriş, grandpashabet güncel adres">
+</head>
+
+<body>
+<style type="text/css">
+    .error{color:#ffffff;}
+</style>
+<div>
+    <div class="table-cell">
+        <div class="card-box">
+            <div class="card-box-inner">
+                <div class="card-box-top">
+                    <div class="card-box-logo">
+                        <a href="../index.php.html">
+                            <img src="img/logo.png" alt="LOGO">
+                        </a>
+                    </div>
+                    <div class="top-text">
+                        <span>SİZİ ARAMAMIZI</span>İSTER MİSİNİZ?</div>
+                    <div class="btm-text">Lütfen telefon numaranızı, kullanıcı adınızı veya isminizi giriniz.</div>
+                </div>
+                <div class="card-box-center">
+                    <div class="center-form">
+                        <form>
+                            <div class="form-group">
+                                <input placeholder="Adınız veya Kullanıcı Adınız" class="form-control" autocomplete="off" data-validate-field="name">
+                                <small class="errorName">
+                                </small>
+                            </div>
+                            <div class="form-group">
+                                <input placeholder="Telefon Numaranız" class="form-control" autocomplete="off" data-validate-field="phone">
+                                <small class="errorPhone">
+                                </small>
+                            </div>
+                            <div class="form-group">
+                                <button id="btnsend" class="btn-custom">GÖNDER</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card-box-bottom">
+                    <div class="btm-text">Lütfen bilgilerinizi doğru girdiginizden emin olunuz.
+                        <div class="btm-text" id="textsend"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var btnsend=document.getElementById('btnsend');
+    var textsend=document.getElementById('textsend');
+    var phone=document.getElementById('phone');
+    btnsend.addEventListener('click',function () {
+        textsend.innerText="En kısa zamanda Call center merkezinden  çağrı yapılacaktır.Gösterdiğiniz sabır için teşekkür ederiz. "
+    });
+
+</script>
+
+<div class="pageskin">
+</div>
+</body>
+
+</html>

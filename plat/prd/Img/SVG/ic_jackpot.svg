@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.856 25.415">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5e02a4;
+      }
+
+      .cls-2 {
+        fill: #2b004b;
+      }
+
+      .cls-3 {
+        fill: #ffb700;
+        font-size: 8px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="ic_jackpot" transform="translate(0.013 0)">
+    <rect id="Rectangle_180_6_" class="cls-1" width="58.856" height="19.088" transform="translate(-0.013)"/>
+    <path id="Path_1806_6_" class="cls-2" d="M172.037,76.663h0V70.3H166Z" transform="translate(-166 -51.248)"/>
+    <text id="JACKPOT" class="cls-3" transform="translate(11.987 12.545)"><tspan x="0" y="0">JACKPOT</tspan></text>
+  </g>
+</svg>

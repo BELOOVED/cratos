@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.141 38.141">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fdb714;
+      }
+
+      .cls-3 {
+        fill: #c3882b;
+      }
+
+      .cls-4 {
+        fill: #1a1a1a;
+        font-size: 8px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="ic_new" transform="translate(0 0)">
+    <rect id="Rectangle_163_1_" class="cls-1" width="38.141" height="38.141"/>
+    <rect id="Rectangle_180_7_" class="cls-2" width="38.141" height="19.088" transform="translate(0 6.363)"/>
+    <path id="Path_1806_7_" class="cls-3" d="M6.037,76.663h0V70.3H0Z" transform="translate(0 -44.885)"/>
+    <text id="NEW" class="cls-4" transform="translate(11 18.908)"><tspan x="0" y="0">NEW</tspan></text>
+  </g>
+</svg>

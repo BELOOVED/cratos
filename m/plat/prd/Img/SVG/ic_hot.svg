@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.141 25.451">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+      }
+
+      .cls-2 {
+        fill: #c00;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 8px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="ic_hot" transform="translate(0 0)">
+    <rect id="Rectangle_180_5_" class="cls-1" width="38.141" height="19.088"/>
+    <path id="Path_1806_5_" class="cls-2" d="M6.037,262.263h0V255.9H0Z" transform="translate(0 -236.812)"/>
+    <text id="HOT" class="cls-3" transform="translate(11 12.565)"><tspan x="0" y="0">HOT</tspan></text>
+  </g>
+</svg>

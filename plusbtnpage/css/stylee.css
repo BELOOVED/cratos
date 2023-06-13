@@ -1,0 +1,411 @@
+html {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased; /*-moz-osx-font-smoothing: grayscale;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.42857143;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100% !important;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+    cursor: pointer;
+}
+
+a:hover, a:focus, a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+p {
+    font: 300 16px/26px "Raleway", sans-serif;
+    color: #82898f;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    width: auto \9; /* ie8 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.form-control::-webkit-input-placeholder {
+    opacity: 1;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-control::-moz-placeholder {
+    opacity: 1;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-control:-ms-input-placeholder {
+    opacity: 1;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-control:-moz-placeholder {
+    opacity: 1;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #efd68c;
+    border: 0;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 11px 30px;
+    border-radius: 10px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-shadow: none !important;
+    outline: none !important;
+    cursor: pointer;
+    font-weight: 900;
+    background: -moz-linear-gradient(270deg, rgb(150 191 165) 0%, rgba(242, 152, 56, 1) 100%);
+    background: -webkit-linear-gradient(270deg, rgb(150 191 165) 0%, rgba(242, 152, 56, 1) 100%);
+    background: -o-linear-gradient(270deg, rgb(150 191 165) 0%, rgba(242, 152, 56, 1) 100%);
+    background: -ms-linear-gradient(270deg, rgb(150 191 165) 0%, rgba(242, 152, 56, 1) 100%);
+    background: linear-gradient(180deg, #ddc97e 0%, #485120 100%);
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #1d1d1d;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+input, textarea, select {
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #efd68c;
+    color: #000000;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 0;
+    position: relative;
+    background-color: transparent;
+    -webkit-text-fill-color: white;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border-color: #efd68c;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.center-form .btn-custom {
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding: 100px 30px 0 30px;
+    margin: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+
+.card-box {
+    max-width: 700px;
+    width: 100%;
+    padding: 30px 50px 100px 50px;
+    margin: 0 auto;
+    position: relative;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-image: linear-gradient(to bottom, #C39446, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.card-box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #C39446;
+    z-index: 1;
+}
+
+.card-box-inner {
+    position: relative;
+}
+
+.card-box-top {
+    text-align: center;
+}
+
+.card-box-logo {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.card-box-logo:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: -moz-linear-gradient(5deg, rgba(38, 172, 190, 0) 0%, #efd68c 39%, #efd68c 61%, rgba(142, 255, 0, 0) 100%);
+    background: -webkit-linear-gradient(5deg, rgba(38, 172, 190, 0) 0%, #efd68c 39%, #efd68c 61%, rgba(142, 255, 0, 0) 100%);
+    background: -o-linear-gradient(5deg, rgba(38, 172, 190, 0) 0%, #efd68c 39%, #efd68c 61%, rgba(142, 255, 0, 0) 100%);
+    background: -ms-linear-gradient(5deg, rgba(38, 172, 190, 0) 0%, #efd68c 39%, #efd68c 61%, rgba(142, 255, 0, 0) 100%);
+    background: linear-gradient(85deg, rgba(38, 172, 190, 0) 0%, #efd68c 39%, #efd68c 61%, rgba(142, 255, 0, 0) 100%);
+}
+
+.card-box-logo img {
+    width: 150px;
+}
+
+.card-box-top .top-text {
+    color: #ffffff;
+    font-size: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.card-box-top .top-text span {
+    color: #efd68c;
+}
+
+.card-box-top .btm-text {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.card-box-center {
+    padding: 25px 0;
+}
+
+.card-box-center .center-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-box-bottom {
+    text-align: center;
+}
+
+.card-box-bottom .btm-text {
+    color: rgb(255 255 255)
+}
+
+.card-box-opt2 {
+    text-align: center;
+}
+
+.card-box-opt2 img {
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.card-box-opt2 .top-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-box-opt2 .btm-text {
+    color: #ffffff;
+}
+
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay-img img {
+    width: 100%;
+}
+
+.overlay-img .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.overlay-img .img2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.bottom-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pageskin {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    z-index: -3;
+    background-image: url('../../kKzYnhc/RTE.jpg');
+    background-size: 100%;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0.1) 0%, #171C2C 100%);
+    z-index: -2;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #171C2C, transparent);
+    z-index: -1;
+}
