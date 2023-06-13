@@ -72,21 +72,21 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="Scripts/mobile/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
-    <link rel="stylesheet" type="text/css" href="Scripts/mobile/JQueryUI/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/Scripts/mobile/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" type="text/css" href="assets/Scripts/mobile/JQueryUI/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
 
     
 
-<link href="bundles/stylesM.css" rel="stylesheet"/>
+<link href="assets/bundles/stylesM.css" rel="stylesheet"/>
 
 
-<link href="bundles/redesignMobile.css" rel="stylesheet"/>
+<link href="assets/bundles/redesignMobile.css" rel="stylesheet"/>
 
-    <link href="bundles/dynamicLobbyMobile.css" rel="stylesheet"/>
+    <link href="assets/bundles/dynamicLobbyMobile.css" rel="stylesheet"/>
 
-    <link href="bundles/dynamicBannersMob.css" rel="stylesheet"/>
+    <link href="assets/bundles/dynamicBannersMob.css" rel="stylesheet"/>
 
-    <link href="Content/mobile/partners/1096.css?v=1.3005.2023.1007" rel="stylesheet" type="text/css" />
+    <link href="assets/Content/mobile/partners/1096.css?v=1.3005.2023.1007" rel="stylesheet" type="text/css" />
 
                 <link href="https://cdn-plat.apidigi.com/plat/prd/Img/Partners/1096/customMob.css" type="text/css" rel="stylesheet" />
 
@@ -107,11 +107,11 @@
     <script type="text/javascript" src="Scripts/jquery.validate.js"></script>
     <script type="text/javascript" src="Scripts/jquery.validate.unobtrusive.min.js"></script>
 
-    <script src="bundles/scriptsM.js?v=-BgzHe7VDpwrs-fmSJ5X30EFm62seV0GYXER2AbLshM1"></script>
+    <script src="assets/bundles/scriptsM.js?v=-BgzHe7VDpwrs-fmSJ5X30EFm62seV0GYXER2AbLshM1"></script>
 
-    <script src="bundles/Common.js?v=yxk3w5c5Oy_q8TtdnQH2UyTX9Z3jSeDDwTYoFhd9G9g1"></script>
+    <script src="assets/bundles/Common.js?v=yxk3w5c5Oy_q8TtdnQH2UyTX9Z3jSeDDwTYoFhd9G9g1"></script>
 
-    <script src="bundles/GamesCommonMob.js"></script>
+    <script src="assets/bundles/GamesCommonMob.js"></script>
 
 
     <script type="text/javascript">
@@ -124,13 +124,13 @@ BalanceUpdater.start();    </script>
     
 
 
-    <link rel="stylesheet" type="text/css" href="/Scripts/slick_slider/slick.css" />
-    <link rel="stylesheet" type="text/css" href="/Scripts/slick_slider/slick-theme.css" />
-    <script src="Scripts/slick_slider/slick.min.js"></script>
-    <link href="bundles/swiper.js?v=Hwurz-JORNIA4J6M0RSK8aiY341Pqev1WIxClQQhzSo1" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="assets/Scripts/slick_slider/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/Scripts/slick_slider/slick-theme.css" />
+    <script src="assets/Scripts/slick_slider/slick.min.js"></script>
+    <link href="assets/bundles/swiper.js?v=Hwurz-JORNIA4J6M0RSK8aiY341Pqev1WIxClQQhzSo1" rel="stylesheet"/>
 
 
-    <script src="Scripts/Utils/swiper.min.js?v=1.3005.2023.1007"></script>
+    <script src="assets/Scripts/Utils/swiper.min.js?v=1.3005.2023.1007"></script>
 
 </head>
 <body class="">
