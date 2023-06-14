@@ -1,0 +1,2 @@
+<iframe style="margin-top: 100px; width:100%; height:100%; min-height:800px; border:none; padding:0; overflow:hidden; z-index:999999;" src="https://launchdigi.net/GamesLaunch/Launch?gameid=20786&playMode=real&token=eb827fcfc3dc498489dc6b8d7c9836d6&deviceType=2&lang=TR&operatorId=84C15EDC&mainDomain=cratosroyalbet461.com">
+</iframe>

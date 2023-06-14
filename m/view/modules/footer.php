@@ -725,10 +725,10 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                 </div>
 
                 <div class="user__info js_copy_msg">
-                    <p class="user__username">turkdevils33</p>
+                    <p class="user__username"><?=$us['login']?></p>
                     <p class="user__id">
                         ID:
-                        <span class="user__id--highlighted js_copy_val">7810455</span>
+                        <span class="user__id--highlighted js_copy_val">7810455<?=$us['id']?></span>
                         <span class="dynamic_icon js_copy_button" data-val-msg="Kopyalandı">
                             
                         </span>
@@ -756,13 +756,13 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 
                             <div class="card__balance-info">
                                 <p class="card__balance-type">Gerçek Bakiye</p>
-                                <p class="card__balance-count"><span id="playerBalance" class="highlighted">0.00</span> TRY</p>
+                                <p class="card__balance-count"><span id="playerBalance" class="highlighted"><?=$us['balance']?></span> TRY</p>
                             </div>
                         </div>
 
 
                         <div class="card__button-wrapper">
-                                <a href="/Account/Deposit" class="card__button ui-link">Para Yatırma</a>
+                                <a href="deposit" class="card__button ui-link">Para Yatırma</a>
                         </div>
 
                     </div>
@@ -779,7 +779,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 
                             <div class="card__balance-info">
                                 <p class="card__balance-type">Bonus Bakiyesi</p>
-                                <p class="card__balance-count"><span id="playerBonusBalance" class="highlighted">0.00</span> TRY</p>
+                                <p class="card__balance-count"><span id="playerBonusBalance" class="highlighted"><?=$us['balance']?></span> TRY</p>
                             </div>
                         </div>
 
@@ -809,7 +809,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                 </button>
                 <ul class="nav__list--sub">
                     <li class="nav__list-item--sub">
-                        <a id="profile" href="/Account/Profile" class="ui-link">
+                        <a id="profile" href="profile" class="ui-link">
                             <p>Kişisel detaylar</p>
                             <span class="link-arrow">›</span>
                         </a>
