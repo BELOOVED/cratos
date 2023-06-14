@@ -815,7 +815,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                         </a>
                     </li>
                                             <li class="nav__list-item--sub">
-                            <a href="/Account/OpenTwoFaSettings" class="ui-link">
+                            <a href="tfa" class="ui-link">
                                 <p>2 Aşamalı Güvenlik</p>
                                 <span class="link-arrow">›</span>
                             </a>
@@ -830,19 +830,19 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                 </button>
                 <ul class="nav__list--sub">
                     <li class="nav__list-item--sub">
-                            <a href="/Account/Deposit" class="ui-link">
+                            <a href="deposit" class="ui-link">
                                 <p>Para Yatırma</p>
                                 <span class="link-arrow">›</span>
                             </a>
                     </li>
                     <li class="nav__list-item--sub">
-                        <a href="/Account/Withdrawal" class="ui-link">
+                        <a href="withdraw" class="ui-link">
                             <p>Para Çekme</p>
                             <span class="link-arrow">›</span>
                         </a>
                     </li>
                     <li class="nav__list-item--sub">
-                        <a href="/Account/PendingWithdrawals" class="ui-link">
+                        <a href="pendingwithdraw" class="ui-link">
                             <p>Bekleyen Para Çekme İşlemleri</p>
                             <span class="link-arrow">›</span>
                         </a>
@@ -858,7 +858,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                 <ul class="nav__list--sub">
                     <li class="nav__list-item--sub">
 
-                        <a href="/Bonus/BonusHistory?scope=0" id="newBonuses" class="ui-link">
+                        <a href="bonushistory" id="newBonuses" class="ui-link">
                             <p>
                                 Yeni Bonuslar
                             </p>
@@ -866,7 +866,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                         </a>
                     </li>
                     <li class="nav__list-item--sub">
-                        <a href="/Bonus/ClientBonusReport" id="activeBonuses" class="ui-link">
+                        <a href="freespin" id="activeBonuses" class="ui-link">
                             <p>
                                 Free Spins and Free Bets
                             </p>
@@ -874,7 +874,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                         </a>
                     </li>
                         <li class="nav__list-item--sub">
-                            <a href="/tr/Account/CheckPromoCode" id="CheckPromoCode" class="ui-link">
+                            <a href="code" id="CheckPromoCode" class="ui-link">
                                 <p>Promo Kod</p>
                                 <span class="link-arrow">›</span>
                             </a>
@@ -893,25 +893,25 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                 </button>
                 <ul class="nav__list--sub">
                     <li class="nav__list-item--sub">
-                        <a href="/Account/GameHistory" id="gameHistory" class="ui-link">
+                        <a href="gamehistory" id="gameHistory" class="ui-link">
                             <p>Oyun Geçmişi</p>
                             <span class="link-arrow">›</span>
                         </a>
                     </li>
                     <li class="nav__list-item--sub">
-                        <a href="/tr/Sport/ReactIndex#?popup=MyBets" class="MyBetssportversion ui-link">
+                        <a href="mybets" class="MyBetssportversion ui-link">
                             <p>Sport Bahis Geçmişi</p>
                             <span class="link-arrow">›</span>
                         </a>
                     </li>
                     <li class="nav__list-item--sub">
-                        <a href="/Account/TransactionsHistory" id="transactionsHistory" class="ui-link">
+                        <a href="financial" id="transactionsHistory" class="ui-link">
                             <p>Finansal İşlemler</p>
                             <span class="link-arrow">›</span>
                         </a>
                     </li>
                     <li class="nav__list-item--sub">
-                        <a href="/Account/BalanceAdjustmentsHistory" class="ui-link">
+                        <a href="editbalance" class="ui-link">
                             <p>Bakiye Düzeltmeleri</p>
                             <span class="link-arrow">›</span>
                         </a>
@@ -922,14 +922,14 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 
 
             <li class="nav__list-item">
-                <a href="/Account/ResetPassword" class="nav__dropdown-head ui-link">
+                <a href="resetpassword" class="nav__dropdown-head ui-link">
                     <span class="dynamic_icon"></span>
                     <span>Şifre değiştir</span>
                 </a>
             </li>
 
             <li class="nav__list-item">
-                <a href="/Account/LogOut" class="nav__dropdown-head ui-link" id="logout">
+                <a href="javascript:;" onclick="logOut()" class="nav__dropdown-head ui-link" id="logout">
                     <span class="dynamic_icon"></span>
                     <span>Çıkış</span>
                 </a>
