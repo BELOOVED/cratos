@@ -4,7 +4,7 @@
     <div class="isLobby hidden"></div>
 
         <div id="js_billboard_banner_cont_1109" class="swiper dynamicBanners banners_billboard with_shadow_slider swiper-initialized swiper-horizontal swiper-ios">
-                <div class="banners_billboard_slider swiper-wrapper" id="swiper-wrapper-a7e55a419cff4f84" aria-live="off" style="transition-duration: 300ms; transform: translate3d(-1950px, 0px, 0px);"><a class="dynamicBanners_item swiper-slide swiper-slide-duplicate" href="/tr/Play/Real/Excalibur-Unleashed-Pragmatic-Casino" target="_self" data-swiper-slide-index="10" style="width: 390px;" role="group" aria-label="11 / 11">
+                <div class="banners_billboard_slider swiper-wrapper" id="swiper-wrapper-a7e55a419cff4f84" aria-live="off" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);"><a class="dynamicBanners_item swiper-slide swiper-slide-duplicate" href="/tr/Play/Real/Excalibur-Unleashed-Pragmatic-Casino" target="_self" data-swiper-slide-index="10" style="width: 390px;" role="group" aria-label="11 / 11">
                 <img class="dynamicBanners_img swiper-lazy" src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/new prg/exmobil.png" loading="lazy">
                 <div class="carousel_caption dynamicBanners_caption">
                     

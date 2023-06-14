@@ -1,2 +1,2 @@
-<iframe style="margin-top: 100px; width:100%; height:100%; min-height:800px; border:none; padding:0; overflow:hidden; z-index:999999;" src="https://sports2.skappsports.com/tr/canli-spor/?currentSession=&parentHost=sekabet1031.com">
+<iframe style="margin-top: ; width:100%; height:100%; min-height:800px; border:none; padding:0; overflow:hidden; z-index:999999;" src="https://sports2.skappsports.com/tr/canli-spor/?currentSession=&parentHost=sekabet1031.com">
 </iframe>

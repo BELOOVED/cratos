@@ -4,7 +4,7 @@
     <div class="isLobby hidden"></div>
 
         <div id="js_billboard_banner_cont_383" class="swiper dynamicBanners banners_billboard with_shadow_slider swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden">
-                <div class="banners_billboard_slider swiper-wrapper" id="swiper-wrapper-84ff3efee57ad3a2" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-780px, 0px, 0px);"><a class="dynamicBanners_item swiper-slide swiper-slide-duplicate" href="/Promotions" target="_self" data-swiper-slide-index="5" style="width: 390px;" role="group" aria-label="6 / 6">
+                <div class="banners_billboard_slider swiper-wrapper" id="swiper-wrapper-84ff3efee57ad3a2" aria-live="off" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);"><a class="dynamicBanners_item swiper-slide swiper-slide-duplicate" href="/Promotions" target="_self" data-swiper-slide-index="5" style="width: 390px;" role="group" aria-label="6 / 6">
                 <img class="dynamicBanners_img swiper-lazy" src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/30dsmobil.png" loading="lazy">
                 <div class="carousel_caption dynamicBanners_caption">
                     
