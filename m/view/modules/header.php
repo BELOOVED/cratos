@@ -73,6 +73,8 @@
 
 
     <link rel="stylesheet" type="text/css" href="assets/Scripts/mobile/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn-sp.kertn.net/mobile/6.26.1/mobile.min.css">
+
     <link rel="stylesheet" type="text/css" href="assets/Scripts/mobile/JQueryUI/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
 
     
