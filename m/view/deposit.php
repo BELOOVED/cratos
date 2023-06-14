@@ -202,7 +202,7 @@
                         </div>
                         
 
-                        <div id="contpayfix"><form action="/tr/Account/_payfix" class="methods" id="payfix" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contpayfix"><form action="/payment/payfix" class="methods" id="payfix" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Tutar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="PayFix_Amount" name="PayFix.Amount" type="text" value=""></div>
@@ -211,7 +211,7 @@
         </p>
     </div>
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="payfix_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/payfix">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -285,7 +285,7 @@
 
                         <div id="contaspaycreditcard">
 
-<form action="/tr/Account/_aspaycreditcard" class="methods" id="aspaycreditcard" method="post" novalidate="novalidate"><div class="row">
+<form action="/payment/creditcard" class="methods" id="aspaycreditcard" method="post" novalidate="novalidate"><div class="row">
     <span class="required-field">*</span>
     <label>Tutar</label>
     <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Miktar sadece rakamlar içerebilir, ondalıklar da belirtilebilir X.XX" data-val-regex="Miktar sadece rakamlar içerebilir, ondalıklar da belirtilebilir X.XX" data-val-regex-pattern="(^[1-9]\d*((\.\d{1})|(\.\d{2}))?$)" data-val-required="Lütfen geçerli bir tutar girin" id="AspayCreditCard_Amount" name="AspayCreditCard.Amount" type="text" value=""></div>
@@ -294,7 +294,7 @@
     </p>
 </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="aspaycreditcard_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/creditcard">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -375,7 +375,7 @@
                         </div>
                         
 
-                        <div id="conthizlicapapara"><form action="/tr/Account/_hizlicapapara" class="methods" id="hizlicapapara" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="conthizlicapapara"><form action="/payment/" class="methods" id="hizlicapapara" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Miktar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Miktar sadece rakamlar içerebilir, ondalıklar da belirtilebilir X.XX" data-val-regex="Miktar sadece rakamlar içerebilir, ondalıklar da belirtilebilir X.XX" data-val-regex-pattern="((^0)|(^[1-9]\d*))((\.\d{1})|(\.\d{2}))?$" data-val-required="Lütfen geçerli bir miktar giriniz" id="HizlicaPapara_Amount" name="HizlicaPapara.Amount" type="text" value=""></div>
@@ -384,7 +384,7 @@
         </p>
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="hizlicapapara_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment">PARA YATIRMA</a>
 
     </div>
     
@@ -628,11 +628,11 @@ Lütfen Canlı Destek Ekibimizden Banka Havalesi Hesap Numarası Bilgilerini İs
                         </div>
                         
 
-                        <div id="contvevopayparazula"><form action="/tr/Account/_vevopayparazula" class="methods" id="vevopayparazula" method="post">    <div class="row">
+                        <div id="contvevopayparazula"><form action="/payment/parazula" class="methods" id="vevopayparazula" method="post">    <div class="row">
         <input class="inp" data-val="true" data-val-number="The field Tutar must be a number." data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="VevoPayParazula_Amount" name="VevoPayParazula.Amount" type="hidden" value="">
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="vevopayparazula_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/parazula">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -703,7 +703,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contpapara"><form action="/tr/Account/_papara" class="methods" id="papara" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contpapara"><form action="/payment/papara" class="methods" id="papara" method="post" novalidate="novalidate">    <div class="row">
             <span class="required-field" style="">*</span>
             <label>Tutar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="Papara_Amount" name="Papara.Amount" type="text" value=""></div>
@@ -712,7 +712,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="papara_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/papara">PARA YATIRMA</a>
     </div>
     
                 <div class="papara_desc">Lütfen Canlı Destek Ekibimizden<br> Papara Hesap Numarası Bilgilerini Isteyiniz</div>
@@ -829,7 +829,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
 
                         <div id="continstapayscrypto">
 
-<form action="/tr/Account/_instapayscrypto" class="methods" id="instapayscrypto" method="post" novalidate="novalidate">    <div class="row">
+<form action="/payment/crypto" class="methods" id="instapayscrypto" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Miktar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Miktar sadece rakamlar içerebilir, ondalıklar da belirtilebilir X.XX" data-val-regex="Miktar sadece rakamlar içerebilir, ondalıklar da belirtilebilir X.XX" data-val-regex-pattern="(^[1-9]\d*((\.\d{1})|(\.\d{2}))?$)" data-val-required="Lütfen geçerli bir tutar girin" id="InstapaysCrypto_Amount" name="InstapaysCrypto.Amount" type="text" value=""></div>
@@ -838,7 +838,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="instapayscrypto_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/crypto">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -920,7 +920,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="conthemenodehavale"><form action="/tr/Account/_hemenodehavale" class="methods" id="hemenodehavale" method="post" novalidate="novalidate">	<div class="row">
+                        <div id="conthemenodehavale"><form action="/payment/havale" class="methods" id="hemenodehavale" method="post" novalidate="novalidate">	<div class="row">
 		<span class="required-field">*</span>
 		<label>Miktar</label>
 		<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="HemenodeHavale_Amount" name="HemenodeHavale.Amount" type="text" value=""></div>
@@ -929,7 +929,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
 		</p>
 	</div>
 	<div class="spacer">
-		<a class="btn_prim block ui-link" id="hemenodehavale_mob">PARA YATIRMA</a>
+		<a class="btn_prim block ui-link" href="/payment/havale">PARA YATIRMA</a>
 
 	</div>
 	
@@ -1003,7 +1003,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="conthemenodevippapara"><form action="/tr/Account/_hemenodevippapara" class="methods" id="hemenodevippapara" method="post" novalidate="novalidate">	<div class="row">
+                        <div id="conthemenodevippapara"><form action="/payment/papara" class="methods" id="hemenodevippapara" method="post" novalidate="novalidate">	<div class="row">
 		<span class="required-field">*</span>
 		<label>Miktar</label>
 		<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="HemenodeVipPapara_Amount" name="HemenodeVipPapara.Amount" type="text" value=""></div>
@@ -1012,7 +1012,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
 		</p>
 	</div>
 	<div class="spacer">
-		<a class="btn_prim block ui-link" id="hemenodevippapara_mob">PARA YATIRMA</a>
+		<a class="btn_prim block ui-link" href="/payment/papara">PARA YATIRMA</a>
 
 	</div>
 	
@@ -1086,7 +1086,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="conthemenodemefete"><form action="/tr/Account/_hemenodemefete" class="methods" id="hemenodemefete" method="post" novalidate="novalidate">	<div class="row">
+                        <div id="conthemenodemefete"><form action="/payment/mefete" class="methods" id="hemenodemefete" method="post" novalidate="novalidate">	<div class="row">
 		<span class="required-field">*</span>
 		<label>Miktar</label>
 		<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="HemenodeMefete_Amount" name="HemenodeMefete.Amount" type="text" value=""></div>
@@ -1095,7 +1095,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
 		</p>
 	</div>
 	<div class="spacer">
-		<a class="btn_prim block ui-link" id="hemenodemefete_mob">PARA YATIRMA</a>
+		<a class="btn_prim block ui-link" href="/payment/mefete">PARA YATIRMA</a>
 
 	</div>
 	
@@ -1168,7 +1168,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="conthemenodepep"><form action="/tr/Account/_hemenodepep" class="methods" id="hemenodepep" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="conthemenodepep"><form action="/payment/pep" class="methods" id="hemenodepep" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Miktar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="HemenodePep_Amount" name="HemenodePep.Amount" type="text" value=""></div>
@@ -1177,7 +1177,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="hemenodepep_mob">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/mefete">PARA YATIRMA</a>
 
     </div>
     
@@ -1251,7 +1251,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="continstapaysviphavale"><form action="/tr/Account/_instapaysviphavale" class="methods" id="instapaysviphavale" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="continstapaysviphavale"><form action="/payment/havale" class="methods" id="instapaysviphavale" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Miktar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="InstaPaysVIPHavale_Amount" name="InstaPaysVIPHavale.Amount" type="text" value=""></div>
@@ -1260,7 +1260,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="instapaysviphavale_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/havale">PARA YATIRMA</a>
 
     </div>
     
@@ -1334,7 +1334,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="continstapayscepbank"><form action="/tr/Account/_instapayscepbank" class="methods" id="instapayscepbank" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="continstapayscepbank"><form action="/payment/cepbank" class="methods" id="instapayscepbank" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field" style="color:#a3a3a3;">*</span>
         <label>Miktar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="InstaPaysCepbank_Amount" name="InstaPaysCepbank.Amount" type="text" value=""></div>
@@ -1343,7 +1343,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
     </div>
     <input id="gatewayPaymentId" name="gatewayPaymentId" type="hidden" value="InstaPaysCepbank">
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="instapayscepbank_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/cepbank">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -1416,7 +1416,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contanindapapara"><form action="/tr/Account/_anindapapara" class="methods" id="anindapapara" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contanindapapara"><form action="/payment/papara" class="methods" id="anindapapara" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Tutar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="AnindaPapara_Amount" name="AnindaPapara.Amount" type="text" value=""></div>
@@ -1424,7 +1424,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="anindapapara_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/papara">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -1538,7 +1538,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contanindaqr"><form action="/tr/Account/_anindaqr" class="methods" id="anindaqr" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contanindaqr"><form action="/payment/havale" class="methods" id="anindaqr" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Tutar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="AnindaQR_Amount" name="AnindaQR.Amount" type="text" value=""></div>
@@ -1546,7 +1546,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="anindaqr_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/havale">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -1618,7 +1618,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contanindabtc"><form action="/tr/Account/_anindabtc" class="methods" id="anindabtc" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contanindabtc"><form action="/payment/crypto" class="methods" id="anindabtc" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Tutar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="AnindaBTC_Amount" name="AnindaBTC.Amount" type="text" value=""></div>
@@ -1626,7 +1626,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="anindabtc_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/crypto">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -1698,7 +1698,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contodendibilkriptopay"><form action="/tr/Account/_odendibilkriptopay" class="methods" id="odendibilkriptopay" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contodendibilkriptopay"><form action="/payment/crypto" class="methods" id="odendibilkriptopay" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Kripto Adres</label>
         <div class="ui-select"><div id="OdendibilKriptoPay_BankId-button" class="ui-btn ui-icon-carat-d ui-btn-icon-right ui-corner-all ui-shadow"><span class="inp"> -- Kripto Adres Seçiniz -- </span><select class="inp" data-val="true" data-val-required="Doldurulması gerekli alan" id="OdendibilKriptoPay_BankId" name="OdendibilKriptoPay.BankId" type="" value="" aria-required="true" aria-describedby="OdendibilKriptoPay_BankId-error" aria-invalid="false" style="opacity: 1; z-index: 10;"><option value=""> -- Kripto Adres Seçiniz -- </option><option value="BTC">Bitcoin</option><option value="USDT">Tether USDT [TRC20 - BEP20]</option><option value="ETH">Etherium</option><option value="TRX">TRON</option><option value="BNB">BNB Coin</option><option value="LTC">Litecoin</option><option value="XRP">Ripple</option><option value="BUSD">Binance USD</option><option value="DOGE">DogeCoin</option><option value="WAVES">Waves</option><option value="ADA">Cardano (ADA)</option><option value="SOL">Solana</option><option value="BCH">Bitcoin Cash</option><option value="DASH">Dash</option><option value="LINK">Chainlink (LINK)</option><option value="ETC">Ether Classic</option></select></div></div>
@@ -1715,7 +1715,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
         </p>
     </div>
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="odendibilkriptopay_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/crypto">PARA YATIRMA</a>
     </div>
     <input class="tl_input_popup" id="OdendibilKriptoPay_GatwayType" name="OdendibilKriptoPay.GatwayType" type="hidden" value="1">
     <input class="tl_input_popup" id="OdendibilKriptoPay_PaymentGatewayId" name="OdendibilKriptoPay.PaymentGatewayId" type="hidden" value="0">
@@ -1849,7 +1849,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contodendibilqr"><form action="/tr/Account/_odendibilqr" class="methods" id="odendibilqr" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contodendibilqr"><form action="/payment/havale" class="methods" id="odendibilqr" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Bank Name</label>
         <div class="ui-select"><div id="OdendibilQr_BankId-button" class="ui-btn ui-icon-carat-d ui-btn-icon-right ui-corner-all ui-shadow"><span class="inp"> -- Select Bank -- </span><select class="inp" data-val="true" data-val-required="Doldurulması gerekli alan" id="OdendibilQr_BankId" name="OdendibilQr.BankId" type="" value="" aria-required="true" aria-describedby="OdendibilQr_BankId-error" aria-invalid="false" style="opacity: 1; z-index: 10;"><option value=""> -- Select Bank -- </option><option value="31">Garanti BBVA - QR</option><option value="32">İş Bankası - QR</option><option value="33">Akbank - QR</option><option value="34">Yapı Kredi - QR</option><option value="35">INGBank - QR</option><option value="36">Denizbank - QR</option><option value="37">Ziraat QR - QR</option><option value="38">TEB - QR</option><option value="39">Halkbank - QR</option><option value="40">Enpara - QR</option><option value="41">Finansbank - QR</option></select></div></div>
@@ -1868,7 +1868,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
     <input class="tl_input_popup" id="OdendibilQr_GatwayType" name="OdendibilQr.GatwayType" type="hidden" value="1">
     <input class="tl_input_popup" id="OdendibilQr_PaymentGatewayId" name="OdendibilQr.PaymentGatewayId" type="hidden" value="0">
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="odendibilqr_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/havale">PARA YATIRMA</a>
 
     </div>
     
@@ -2002,7 +2002,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contodendibilcepbank"><form action="/tr/Account/_odendibilcepbank" class="methods" id="odendibilcepbank" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contodendibilcepbank"><form action="/payment/cepbank" class="methods" id="odendibilcepbank" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Bank Name</label>
         <div class="ui-select"><div id="OdendibilCepBank_BankId-button" class="ui-btn ui-icon-carat-d ui-btn-icon-right ui-corner-all ui-shadow"><span class="inp"> -- Select Bank -- </span><select class="inp" data-val="true" data-val-required="Doldurulması gerekli alan" id="OdendibilCepBank_BankId" name="OdendibilCepBank.BankId" type="" value="" aria-required="true" aria-describedby="OdendibilCepBank_BankId-error" aria-invalid="false" style="opacity: 1; z-index: 10;"><option value=""> -- Select Bank -- </option><option value="1">Garanti BBVA - Cepbank</option><option value="8">Akbank - Cepbank</option><option value="10">Yapı Kredi - Cepbank</option><option value="14">Ziraat QR (Cebe Havale) - Cepbank</option><option value="7">İş Bankası - Cepbank</option><option value="5">QNB Finansbank - Cepbank</option><option value="6">EnPara - Cepbank</option><option value="3">Vakıfbank - Cepbank</option><option value="11">ING - Cepbank</option><option value="21">TEB - Cepbank</option><option value="4">Kuveyttürk - Cepbank</option><option value="17">Denizbank (Cebe Havale) - Cepbank</option><option value="19">Fastpay (Denizbank) - Cepbank</option><option value="12">Şekerbank - Cepbank</option><option value="2">Ptt - Cepbank</option><option value="16">BKM Express Para Yatırma - Cepbank</option><option value="27">Denizbank (Referans) - Cepbank</option></select></div></div>
@@ -2021,7 +2021,7 @@ Lütfen Canlı Destek Ekibimizden Papara Hesap Numarası Bilgilerini İsteyiniz.
     <input class="tl_input_popup" id="OdendibilCepBank_GatwayType" name="OdendibilCepBank.GatwayType" type="hidden" value="1">
     <input class="tl_input_popup" id="OdendibilCepBank_PaymentGatewayId" name="OdendibilCepBank.PaymentGatewayId" type="hidden" value="0">
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="odendibilcepbank_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/cepbank">PARA YATIRMA</a>
 
     </div>
     
@@ -2158,7 +2158,7 @@ Lütfen Canlı Destek Ekibimizden Tosla Hesap Numarası Bilgilerini İsteyiniz.<
                         </div>
                         
 
-                        <div id="conttosla"><form action="/tr/Account/_tosla" class="methods" id="tosla" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="conttosla"><form action="/payment/tosla" class="methods" id="tosla" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Miktar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="Tosla_Amount" name="Tosla.Amount" type="text" value=""></div>
@@ -2167,7 +2167,7 @@ Lütfen Canlı Destek Ekibimizden Tosla Hesap Numarası Bilgilerini İsteyiniz.<
         </p>
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="tosla_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/tosla">PARA YATIRMA</a>
 
     </div>
     
@@ -2255,7 +2255,7 @@ Lütfen Canlı Destek Ekibimizden Mefete Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contmefete"><form action="/tr/Account/_mefete" class="methods" id="mefete" method="post" novalidate="novalidate">	<div class="row">
+                        <div id="contmefete"><form action="/payment/mefete" class="methods" id="mefete" method="post" novalidate="novalidate">	<div class="row">
 		<span class="required-field">*</span>
 			<label>Tutar</label>
 		<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="Mefete_Amount" name="Mefete.Amount" type="text" value=""></div>
@@ -2264,7 +2264,7 @@ Lütfen Canlı Destek Ekibimizden Mefete Hesap Numarası Bilgilerini İsteyiniz.
 		</p>
 	</div>
 	<div class="spacer">
-		<a class="btn_prim block ui-link" id="mefete_mob_dep">PARA YATIRMA</a>
+		<a class="btn_prim block ui-link" href="/payment/mefete">PARA YATIRMA</a>
 
 	</div>
 	
@@ -2352,7 +2352,7 @@ Lütfen Canlı Destek Ekibimizden Mefete Hesap Numarası Bilgilerini İsteyiniz.
                         </div>
                         
 
-                        <div id="contcepbankoffline"><form action="/tr/Account/_cepbankoffline" class="methods" id="cepbankoffline" method="post" novalidate="novalidate">	<div class="row">
+                        <div id="contcepbankoffline"><form action="/payment/cepbank" class="methods" id="cepbankoffline" method="post" novalidate="novalidate">	<div class="row">
 		<span class="required-field">*</span>
 		<label>Banka Adı</label>
 <div class="ui-select"><div id="CepBankOffline_NameOfBank-button" class="ui-btn ui-icon-carat-d ui-btn-icon-right ui-corner-all ui-shadow"><span class="dropdown">Akbank</span><select class="dropdown" data-val="true" data-val-length="Doldurulması gerekli alan" data-val-length-max="150" data-val-required="Doldurulması gerekli alan" id="CepBankOffline_NameOfBank" name="CepBankOffline.NameOfBank"><option>Akbank</option>
@@ -2406,7 +2406,7 @@ Lütfen Canlı Destek Ekibimizden Mefete Hesap Numarası Bilgilerini İsteyiniz.
 			</p>
 		</div>
 	<div class="spacer">
-		<a class="btn_prim block ui-link" id="cepbankoffline_mob_dep">PARA YATIRMA</a>
+		<a class="btn_prim block ui-link" href="/payment/cepbank">PARA YATIRMA</a>
 
 	</div>
 	
@@ -2520,7 +2520,7 @@ Lütfen Canlı Destek Ekibimizden Paycell Hesap Numarası Bilgilerini İsteyiniz
                         </div>
                         
 
-                        <div id="contpaycell"><form action="/tr/Account/_paycell" class="methods" id="paycell" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contpaycell"><form action="/payment/paycell" class="methods" id="paycell" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
             <label>Tutar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="Paycell_Amount" name="Paycell.Amount" type="text" value=""></div>
@@ -2529,7 +2529,7 @@ Lütfen Canlı Destek Ekibimizden Paycell Hesap Numarası Bilgilerini İsteyiniz
         </p>
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="paycell_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" href="/payment/paycell">PARA YATIRMA</a>
 
     </div>
     
@@ -2626,7 +2626,7 @@ Lütfen Canlı Destek Ekibimizden Pep Hesap Numarası Bilgilerini İsteyiniz.</p
                         </div>
                         
 
-                        <div id="contpepoffline"><form action="/tr/Account/_pepoffline" class="methods" id="pepoffline" method="post" novalidate="novalidate">	<div class="row">
+                        <div id="contpepoffline"><form action="/payment/pep" class="methods" id="pepoffline" method="post" novalidate="novalidate">	<div class="row">
 		<span class="required-field">*</span>
 		<label>Miktar</label>
 		<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]{1,29}$)" data-val-required="Lütfen geçerli bir tutar girin" id="PePOffline_Amount" name="PePOffline.Amount" type="text" value=""></div>
@@ -2636,7 +2636,7 @@ Lütfen Canlı Destek Ekibimizden Pep Hesap Numarası Bilgilerini İsteyiniz.</p
 		</p>
 	</div>
 	<div class="spacer">
-		<a class="btn_prim block ui-link" id="pepoffline_mob_dep">PARA YATIRMA</a>
+		<a class="btn_prim block ui-link" href="/payment/pep">PARA YATIRMA</a>
 
 	</div>
 	
@@ -2716,7 +2716,7 @@ Lütfen Canlı Destek Ekibimizden Pep Hesap Numarası Bilgilerini İsteyiniz.</p
                         </div>
                         
 
-                        <div id="contjetonwallet"><form action="/tr/Account/_jetonwallet" class="methods" id="jetonwallet" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contjetonwallet"><form action="/payment/jeton" class="methods" id="jetonwallet" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field">*</span>
         <label>Tutar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="JetonWallet_Amount" name="JetonWallet.Amount" type="text" value=""></div>
@@ -2725,7 +2725,7 @@ Lütfen Canlı Destek Ekibimizden Pep Hesap Numarası Bilgilerini İsteyiniz.</p
     </p>
 </div>
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="jetonwallet_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/jeton">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
@@ -2800,7 +2800,7 @@ Lütfen Canlı Destek Ekibimizden CMT Cüzdan Hesap Numarası Bilgilerini İstey
                         </div>
                         
 
-                        <div id="contcmtcuzdan"><form action="/tr/Account/_cmtcuzdan" class="methods" id="cmtcuzdan" method="post" novalidate="novalidate">	<div class="row">
+                        <div id="contcmtcuzdan"><form action="/payment/cmt" class="methods" id="cmtcuzdan" method="post" novalidate="novalidate">	<div class="row">
 		<span class="required-field">*</span>
 		<label>Tutar</label>
 		<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="CMTCuzdan_Amount" name="CMTCuzdan.Amount" type="text" value=""></div>
@@ -2809,7 +2809,7 @@ Lütfen Canlı Destek Ekibimizden CMT Cüzdan Hesap Numarası Bilgilerini İstey
 		</p>
 	</div>
 	<div class="spacer">
-		<a class="btn_prim block ui-link" id="cmtcuzdan_mob_dep">PARA YATIRMA</a>
+		<a class="btn_prim block ui-link" href="/payment/cmt">PARA YATIRMA</a>
 	</div>
 	
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span>	<div class="successmassage"></div>
