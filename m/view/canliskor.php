@@ -22,7 +22,7 @@
 <body>
 <div id="root">
     <div class="divcontainer">
-        <iframe src="https://livescore.grandpashabet1279.com/1/" width="100%" height="100%"  title="canliskor" >
+        <iframe src="https://livescore.<?=$main['sitelink']?>.com/1/" width="100%" height="100%"  title="canliskor" >
 
         </iframe>
 
