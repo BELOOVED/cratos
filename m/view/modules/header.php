@@ -265,7 +265,7 @@ BalanceUpdater.start();    </script>
         <div class="scrolled__content-x">
             <ul class="casino_links_tabs">
                         <li>
-                            <a href='/Sport/ReactIndex' target="_self"
+                            <a href='sportsbook' target="_self"
                                title="SPOR BAHİSLERİ" class="menu_item js_hdr_mn_items ">
                                 
                                 SPOR BAHİSLERİ
@@ -273,7 +273,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Sport/ReactIndex#Live/page' target="_self"
+                            <a href='livesports' target="_self"
                                title="CANLI BAHİSLER" class="menu_item js_hdr_mn_items ">
                                 
                                 CANLI BAHİSLER
@@ -281,7 +281,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Sport/esportview' target="_self"
+                            <a href='esports' target="_self"
                                title="E-SPOR" class="menu_item js_hdr_mn_items ">
                                 
                                 E-SPOR
@@ -289,7 +289,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Lobby/Casino/Main' target="_self"
+                            <a href='casino' target="_self"
                                title="3D SLOT" class="menu_item js_hdr_mn_items ">
                                 
                                 3D SLOT
@@ -297,7 +297,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Lobby/Livecasino/Main' target="_self"
+                            <a href='livecasino' target="_self"
                                title="CANLI CASİNO" class="menu_item js_hdr_mn_items ">
                                 
                                 CANLI CASİNO
@@ -305,7 +305,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Lobby/Tvgames/Main' target="_self"
+                            <a href='tvgames' target="_self"
                                title="CANLI OYUNLAR" class="menu_item js_hdr_mn_items ">
                                 
                                 CANLI OYUNLAR
@@ -313,7 +313,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Lobby/Virtualsport/Main' target="_self"
+                            <a href='virtualsports' target="_self"
                                title="SANAL BAHİSLER" class="menu_item js_hdr_mn_items ">
                                 
                                 SANAL BAHİSLER
@@ -321,7 +321,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Lobby/Livecasino/Main/All/Tombala' target="_self"
+                            <a href='bingo' target="_self"
                                title="TOMBALA" class="menu_item js_hdr_mn_items ">
                                 
                                 TOMBALA
@@ -329,7 +329,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='#right-panel' target="_self"
+                            <a href='zeppelin' target="_self"
                                title="ZEPPELİN" class="menu_item js_hdr_mn_items ">
                                 
                                 ZEPPELİN
@@ -337,7 +337,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='#right-panel' target="_self"
+                            <a href='aviator' target="_self"
                                title="AVİATOR" class="menu_item js_hdr_mn_items ">
                                 
                                 AVİATOR
@@ -345,7 +345,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Play/Real/betongamesrocket-Fastgames' target="_self"
+                            <a href="roket" target="_self"
                                title="ROKET" class="menu_item js_hdr_mn_items ">
                                 
                                 ROKET
@@ -353,7 +353,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='/Play/Real/CashShow-Fastgames' target="_self"
+                            <a href='cashow' target="_self"
                                title="CASHOW" class="menu_item js_hdr_mn_items ">
                                 
                                 CASHOW
@@ -361,7 +361,7 @@ BalanceUpdater.start();    </script>
                             </a>
                         </li>
                         <li>
-                            <a href='https://livescore.cratosroyalbet460.com' target="_self"
+                            <a href='livescore' target="_self"
                                title="CANLI SKOR" class="menu_item js_hdr_mn_items ">
                                 
                                 CANLI SKOR

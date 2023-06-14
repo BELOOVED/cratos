@@ -239,42 +239,42 @@
 
                 <div id="rwQuickActionsMenuNew">
                     <div id="rwQuickActionsMenuWrapperNew">
-                        <a href="https://rebrand.ly/cratosmobill" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-app.svg?1">
                             <span>mobil app</span>
                         </a>
-                        <a href="https://rebrand.ly/Cratosroyalcark" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-cark.svg">
                             <span>şans çarkı</span>
                         </a>
-                        <a href="https://rebrand.ly/cratosbonustalep" target="_blank">
+                        <a href="bonustalep" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-tournaments.svg?1">
                             <span>bonus talep</span>
                         </a>
-                        <a href="https://rebrand.ly/cratosbeniara" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-call.svg?1">
                             <span>beni ara</span>
                         </a>
-                        <a href="https://join.skype.com/invite/BIOHeAAB77FQ" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-live-support-2.svg">
                             <span>bayilik</span>
                         </a>
-                        <a href="https://rebrand.ly/cratoswhatsapp" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-call.svg?1">
                             <span>whatsapp</span>
                         </a>
-                        <a href="https://rebrand.ly/cratosstelegramm" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-telegram.svg?2">
                             <span>telegram</span>
                         </a>
-                        <a href="https://rebrand.ly/canlitvvvv" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="https://cdn-plat.apidigi.com/plat/prd/Img/partners/1096/live-chat-img/icon-tv.svg?2">
                             <span>canlı tv</span>
                         </a>
                     </div>
                 </div>
             </div>
-            <a href="https://rebrand.ly/cratoswhatsapp" target="_blank" rel="noopener" class="whatsapp_top flex alCen jc"></a>
+            <a href="#" target="_blank" rel="noopener" class="whatsapp_top flex alCen jc"></a>
         </div>
         <script type="text/javascript">
             $(document).on('click', '#rwToggleQuickActionsBtn', function () {
@@ -438,7 +438,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 
 <div class="lm__container flex flexCol dynamic_menu">
         <div class="lm__blocks flex jb">
-                    <a class="lm__block flex flexCol jc alCen js_left_mn_items" href='https://rebrand.ly/cratosbonustalep' target="_blank"
+                    <a class="lm__block flex flexCol jc alCen js_left_mn_items" href='bonustalep' target="_blank"
                        title="BONUS TALEP ET">
                         <i class='dynamic_icon' style='color:#EBDF9D'>&#57350</i>
                         <span class="lm_text_content">
@@ -458,7 +458,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
     <div class="lm__links">
                     <ul class="lm__links_block">
                         <li class="lm_link">
-                            <a class="js_left_mn_items " href='https://rebrand.ly/cratosbeniara' target="_self"
+                            <a class="js_left_mn_items " href='cratosbeniara' target="_self"
                                title="ARAMA TALEBİ OLUŞTUR">
                                 <i class='dynamic_icon' style='color:#EBDF9D'>&#57353</i>
                                 <span class="lm_text_content"> ARAMA TALEBİ OLUŞTUR</span>
@@ -468,7 +468,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                     </ul>
                     <ul class="lm__links_block">
                         <li class="lm_link">
-                            <a class="js_left_mn_items " href='/Promotions' target="_self"
+                            <a class="js_left_mn_items " href='promotions' target="_self"
                                title="PROMOSYONLAR">
                                 <i class='dynamic_icon' style='color:#EBDF9D'>&#57374</i>
                                 <span class="lm_text_content"> PROMOSYONLAR</span>
@@ -478,7 +478,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                     </ul>
                     <ul class="lm__links_block">
                         <li class="lm_link">
-                            <a class="js_left_mn_items " href='https://rebrand.ly/cratoscekilis' target="_self"
+                            <a class="js_left_mn_items " href='cratoscekilis' target="_self"
                                title="HAFTALIK 100.000₺ &#199;EKİLİŞ">
                                 <i class='dynamic_icon' style='color:#EBDF9D'>&#57480</i>
                                 <span class="lm_text_content"> HAFTALIK 100.000₺ &#199;EKİLİŞ</span>
@@ -488,7 +488,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                     </ul>
                     <ul class="lm__links_block">
                         <li class="lm_link">
-                            <a class="js_left_mn_items " href='https://rebrand.ly/Cratosroyalcark' target="_self"
+                            <a class="js_left_mn_items " href="#" target="_self"
                                title="&#199;ARK">
                                 <i class='dynamic_icon' style='color:#EBDF9D'>&#57383</i>
                                 <span class="lm_text_content"> &#199;ARK</span>
@@ -496,7 +496,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                             </a>
                         </li>
                     </ul>
-                        <a class="lm__title_link js_left_mn_items" href='/Sport' target="_self"
+                        <a class="lm__title_link js_left_mn_items" href='sportsbook' target="_self"
                            title="SPOR">
                             
                             <span class="lm_text_content">SPOR</span>
@@ -504,34 +504,34 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                         </a>
                     <ul class="lm__links_block">
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Sport/ReactIndex' target="_self"
+                                        <a class="js_left_mn_items " href='sportsbook' target="_self"
        title="SPOR"><i class='dynamic_icon' style='color:#EBDF9D'>&#57380</i><span class="lm_text_content">SPOR</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Sport/ReactIndex#Live/page' target="_self"
+                                        <a class="js_left_mn_items " href='livesports' target="_self"
        title="CANLI BAHİS"><i class='dynamic_icon' style='color:#EBDF9D'>&#57368</i><span class="lm_text_content">CANLI BAHİS</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Sport/esportview' target="_self"
+                                        <a class="js_left_mn_items " href='esports' target="_self"
        title="E-SPOR"><i class='dynamic_icon' style='color:#EBDF9D'>&#57357</i><span class="lm_text_content">E-SPOR</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='https://livescore.cratosroyalbet.com' target="_self"
+                                        <a class="js_left_mn_items " href='livescore' target="_self"
        title="CANLI SKOR"><i class='dynamic_icon' style='color:#EBDF9D'>&#57367</i><span class="lm_text_content">CANLI SKOR</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='https://livescore.cratosroyalbet460.com' target="_self"
+                                        <a class="js_left_mn_items " href='livescore' target="_self"
        title="İSTATİSTİKLER"><i class='dynamic_icon' style='color:#EBDF9D'>&#57381</i><span class="lm_text_content">İSTATİSTİKLER</span> </a>
 
                                 </li>
                     </ul>
                     <ul class="lm__links_block">
                         <li class="lm_link">
-                            <a class="js_left_mn_items " href='https://rebrand.ly/canlitvvvv' target="_blank"
+                            <a class="js_left_mn_items " href='#' target="_blank"
                                title="CANLI TV">
                                 <i class='dynamic_icon' style='color:#EBDF9D'>&#57881</i>
                                 <span class="lm_text_content"> CANLI TV</span>
@@ -546,27 +546,27 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                         </h3>
                     <ul class="lm__links_block">
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Lobby/Casino/Main' target="_self"
+                                        <a class="js_left_mn_items " href='casino' target="_self"
        title="3D SLOT"><i class='dynamic_icon' style='color:#EBDF9D'>&#57352</i><span class="lm_text_content">3D SLOT</span> <span class='dynamic_bagge jackpot'>JackPot</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Lobby/LiveCasino/Main' target="_self"
+                                        <a class="js_left_mn_items " href='livecasino' target="_self"
        title="CANLI CASİNO"><i class='dynamic_icon' style='color:#EBDF9D'>&#57365</i><span class="lm_text_content">CANLI CASİNO</span> <span class='dynamic_bagge premium'>Premium</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Lobby/TVGames/Main' target="_self"
+                                        <a class="js_left_mn_items " href='tvgames target="_self"
        title="TV OYUNLARI"><i class='dynamic_icon' style='color:#EBDF9D'>&#57383</i><span class="lm_text_content">TV OYUNLARI</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Lobby/VirtualSport/Main' target="_self"
+                                        <a class="js_left_mn_items " href='virtualsports' target="_self"
        title="SANAL BAHİSLER"><i class='dynamic_icon' style='color:#EBDF9D'>&#57357</i><span class="lm_text_content">SANAL BAHİSLER</span> </a>
 
                                 </li>
                     </ul>
-                        <a class="lm__title_link js_left_mn_items" href='/Lobby/FastGames/Main' target="_self"
+                        <a class="lm__title_link js_left_mn_items" href='fastgames' target="_self"
                            title="HIZLI OYUNLAR">
                             
                             <span class="lm_text_content">HIZLI OYUNLAR</span>
@@ -574,89 +574,89 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
                         </a>
                     <ul class="lm__links_block">
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/Crasher-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#s' target="_self"
        title="Crasher"><i class='dynamic_icon' style='color:#EBDF9D'>&#58423</i><span class="lm_text_content">Crasher</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/Plinkoman-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="Plinkoman"><i class='dynamic_icon' style='color:#EBDF9D'>&#58393</i><span class="lm_text_content">Plinkoman</span> <span class='dynamic_bagge premium'>Premium</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/play/fun/Mines-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="FMİNES"><i class='dynamic_icon' style='color:#EBDF9D'>&#57371</i><span class="lm_text_content">FMİNES</span> <span class='dynamic_bagge hot'>Hot</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/play/fun/GoldenRA-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='# target="_self"
        title="GOLDEN RA"><i class='dynamic_icon' style='color:#EBDF9D'>&#57384</i><span class="lm_text_content">GOLDEN RA</span> <span class='dynamic_bagge new'>New</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/play/fun/Thimble-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="MR. THİMBLE"><i class='dynamic_icon' style='color:#EBDF9D'>&#57625</i><span class="lm_text_content">MR. THİMBLE</span> <span class='dynamic_bagge new'>New</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/betongamesrocket-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='roket' target="_self"
        title="ROKET"><i class='dynamic_icon' style='color:#EBDF9D'>&#57376</i><span class="lm_text_content">ROKET</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/GetSpecificGames?url=zeppelin-betsolutions' target="_self"
+                                        <a class="js_left_mn_items " href='zeppelin' target="_self"
        title="ZEPPELİN"><i class='dynamic_icon' style='color:#EBDF9D'>&#57385</i><span class="lm_text_content">ZEPPELİN</span> <span class='dynamic_bagge premium'>Premium</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/Aviator-Spribe-Casino' target="_self"
+                                        <a class="js_left_mn_items " href='aviator' target="_self"
        title="AVİATOR"><i class='dynamic_icon' style='color:#EBDF9D'>&#57429</i><span class="lm_text_content">AVİATOR</span> <span class='dynamic_bagge premium'>Premium</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/JetX-SmartSoft-Casino' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="JETX"><i class='dynamic_icon' style='color:#EBDF9D'>&#57464</i><span class="lm_text_content">JETX</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/CashShow-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='cashow' target="_self"
        title="CASHSHOW"><i class='dynamic_icon' style='color:#EBDF9D'>&#57459</i><span class="lm_text_content">CASHSHOW</span> <span class='dynamic_bagge hot'>Hot</span></a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/KenoExpress-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="KENO EXPRESS"><i class='dynamic_icon' style='color:#EBDF9D'>&#57363</i><span class="lm_text_content">KENO EXPRESS</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/betongameshilo-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="HİLO"><i class='dynamic_icon' style='color:#EBDF9D'>&#57359</i><span class="lm_text_content">HİLO</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/betongames-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="KENO"><i class='dynamic_icon' style='color:#EBDF9D'>&#57364</i><span class="lm_text_content">KENO</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/crash-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="CRASH"><i class='dynamic_icon' style='color:#EBDF9D'>&#57354</i><span class="lm_text_content">CRASH</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/betongamessicbo-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='# target="_self"
        title="SİCBO"><i class='dynamic_icon' style='color:#EBDF9D'>&#57378</i><span class="lm_text_content">SİCBO</span> </a>
 
                                 </li>
                                 <li class="lm_link">
-                                        <a class="js_left_mn_items " href='/Play/Real/Penalty-Fastgames' target="_self"
+                                        <a class="js_left_mn_items " href='#' target="_self"
        title="PENALTI"><i class='dynamic_icon' style='color:#EBDF9D'>&#57372</i><span class="lm_text_content">PENALTI</span> </a>
 
                                 </li>
                     </ul>
                     <ul class="lm__links_block">
                         <li class="lm_link">
-                            <a class="js_left_mn_items " href='/Lobby/Livecasino/Main/All/Tombala' target="_self"
+                            <a class="js_left_mn_items " href='bingo' target="_self"
                                title="TOMBALA">
                                 <i class='dynamic_icon' style='color:#EBDF9D'>&#57364</i>
                                 <span class="lm_text_content"> TOMBALA</span>
@@ -695,7 +695,8 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 
 
     <div class="platformRightLoginPanel" id="sidebar-login">
-<form action="/Login/Login" class="login_container" method="post"><input name="__RequestVerificationToken" type="hidden" value="vbAhSzpNA8OGuSl2E6QIHX-zMfjmoZxuJpl460-RF8GXRDWsngC1EEyRYaA5eFtjYoTNy8-by6-HQUaZzYMXEuNiE7TGOuoxV8o-xoJfO5M1" />            <div class="r_login__row">
+<form id="login_form" class="login_container" >
+<input name="__RequestVerificationToken" type="hidden" value="vbAhSzpNA8OGuSl2E6QIHX-zMfjmoZxuJpl460-RF8GXRDWsngC1EEyRYaA5eFtjYoTNy8-by6-HQUaZzYMXEuNiE7TGOuoxV8o-xoJfO5M1" />            <div class="r_login__row">
                     <div class="platformLoginRightLogo"></div>
             </div>
             <input name="GameName" id="GameName" value="" type="hidden">
@@ -703,12 +704,12 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 
 
 
-<input Class="login_input inp" automation="email_input" data-val="true" data-val-required="Lütfen kullanıcı adınızı giriniz" id="email" name="Email" placeholder="Kullanıcı adı / E-mail / Cep numarası" required="required" tabindex="1" type="text" value="" />
+<input Class="login_input inp" automation="email_input" data-val="true" data-val-required="Lütfen kullanıcı adınızı giriniz" id="email" name="login" placeholder="Kullanıcı adı / E-mail / Cep numarası" required="required" tabindex="1" type="text" value="" />
 
 
             </div>
             <div class="r_login__row PlatformLoginPassContainer eye_block">
-<input Class="platformPassInput inp" autocomplete="off" automation="password_input" data-val="true" data-val-required="Lütfen şifrenizi giriniz." id="password" name="Password" placeholder="Şifre" required="required" tabindex="2" type="password" />            </div>
+<input Class="platformPassInput inp" autocomplete="off" automation="password_input" data-val="true" data-val-required="Lütfen şifrenizi giriniz." id="password" name="password" placeholder="Şifre" required="required" tabindex="2" type="password" />            </div>
                     <div class="captcha login_captcha_block dis_none">
                         <label class="reg__row_title">G&#252;venlik kodu: <span class="required-field">*</span></label>
                         <div class="flex relative w-100">
@@ -717,12 +718,8 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 <img class='captchaImage' src="/Common/Captcha?guid=82a1db45e05846f7b741fbb64839075a&height=50&width=150" alt="CAPTCHA" width="150" height="50" /><div class='tl_refresh_container'><a class="refreshLoginCaptcha" title="Refresh"></a>
                             </div>
                             <div class="captcha_input_cont">
-                                <input type="text" id="Captcha" name="Captcha" value=""  autocomplete="off" placeholder="" class="l_reg  registerInput reg_input tl_input_popup_reg"/></div>
                             </div>
                         </div>
-                        <p id="recaptchaError">
-                            <span class="field-validation-valid" data-valmsg-for="Recaptcha" data-valmsg-replace="true" style="color: #ff0000"></span>
-                        </p>
                     </div>
             <span class="field-validation-valid error warning warning-log dis_none" id="loginerrormessage"></span>
             <div class="r_login__row warning dis_none">
@@ -731,10 +728,10 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
             </div>
             <span class="dis_none loading_span" id="loadingSpan">Y&#252;kleniyor...</span>
                 <div class="r_login__row">
-                    <a href="#" class="platformLoginButton btn_prim tl_btn bg-primary" id="loginButton" automation="login_button">&#220;YE GİRİŞİ</a>
+                    <a href="#" onclick="logIn()" class="platformLoginButton btn_prim tl_btn bg-primary" id="loginButton" automation="login_button">&#220;YE GİRİŞİ</a>
                 </div>
                     <div class="r_login__row">
-                        <a class="platformForgPass" href="/Home/ForgotPass">Şifrenizi mi unuttunuz?</a>
+                        <a class="platformForgPass" href="#">Şifrenizi mi unuttunuz?</a>
                     </div>
 </form>
         <input type="hidden" id="gameUrl" value="" />
