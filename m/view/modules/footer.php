@@ -684,7 +684,273 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
     });
 </script>
             </div>
+            <?php if(isset($us['id']))
+{?>
+<div id="right-panel" class="panel bgMain bg_right_panel right-menu--w-100 ui-panel ui-panel-position-right ui-panel-display-push ui-body-b ui-panel-animate ui-panel-open" data-position="right" data-role="panel" data-display="push" data-theme="b" data-dismissible="true">
 
+
+
+
+<div class="ui-panel-inner"><aside class="right-menu">
+
+    <div class="right-menu__header">
+        <div class="right-menu__container">
+            <div class="header__inner">
+                <div class="header__info">
+                    <p class="header__back js_right_menu_close">‹</p>
+                    <p class="header__user-info"> </p>
+                </div>
+                <div class="header__icons-wrapper">
+                    <span class="with-badge">
+                        <a class="dynamic_icon ui-link" href="/Account/Inbox">
+                            
+                        </a>
+                    </span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-menu__user">
+        <div class="right-menu__container">
+            <div class="user__inner">
+
+                <div class="user__image-wrapper">
+                    <p class="user__image">
+                        <span class="dynamic_icon">
+                            
+                        </span>
+                    </p>
+                </div>
+
+                <div class="user__info js_copy_msg">
+                    <p class="user__username">turkdevils33</p>
+                    <p class="user__id">
+                        ID:
+                        <span class="user__id--highlighted js_copy_val">7810455</span>
+                        <span class="dynamic_icon js_copy_button" data-val-msg="Kopyalandı">
+                            
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="right-menu__balance" ontouchstart="event.stopPropagation();">
+        <div class="right-menu__container">
+            <div class="balance__inner">
+
+                <div class="balance__slider">
+
+                    <div class="balance__card">
+                        <div class="card__info-wrapper">
+                            <div class="card__wallet-badge">
+                                <span class="dynamic_icon">
+                                    
+                                </span>
+                            </div>
+
+                            <div class="card__balance-info">
+                                <p class="card__balance-type">Gerçek Bakiye</p>
+                                <p class="card__balance-count"><span id="playerBalance" class="highlighted">0.00</span> TRY</p>
+                            </div>
+                        </div>
+
+
+                        <div class="card__button-wrapper">
+                                <a href="/Account/Deposit" class="card__button ui-link">Para Yatırma</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="balance__card hidden" id="bonusBalanceCont">
+                        <div class="card__info-wrapper">
+
+                            <div class="card__wallet-badge">
+                                <span class="dynamic_icon">
+                                    
+                                </span>
+                            </div>
+
+                            <div class="card__balance-info">
+                                <p class="card__balance-type">Bonus Bakiyesi</p>
+                                <p class="card__balance-count"><span id="playerBonusBalance" class="highlighted">0.00</span> TRY</p>
+                            </div>
+                        </div>
+
+                        <div class="card__button-wrapper">
+                            <a href="/Bonus/BonusHistory?scope=0" class="card__button card__button--secondary ui-link">Daha Fazlası</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="right-menu__nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <button class="nav__dropdown-head ui-btn ui-shadow ui-corner-all">
+                    <span class="dynamic_icon">
+                        
+                    </span>
+                    <span>
+                        Profilim
+                    </span>
+                </button>
+                <ul class="nav__list--sub">
+                    <li class="nav__list-item--sub">
+                        <a id="profile" href="/Account/Profile" class="ui-link">
+                            <p>Kişisel detaylar</p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                                            <li class="nav__list-item--sub">
+                            <a href="/Account/OpenTwoFaSettings" class="ui-link">
+                                <p>2 Aşamalı Güvenlik</p>
+                                <span class="link-arrow">›</span>
+                            </a>
+                        </li>
+                </ul>
+            </li>
+
+            <li class="nav__list-item">
+                <button class="nav__dropdown-head ui-btn ui-shadow ui-corner-all">
+                    <span class="dynamic_icon"></span>
+                    <span>Ödemeler</span>
+                </button>
+                <ul class="nav__list--sub">
+                    <li class="nav__list-item--sub">
+                            <a href="/Account/Deposit" class="ui-link">
+                                <p>Para Yatırma</p>
+                                <span class="link-arrow">›</span>
+                            </a>
+                    </li>
+                    <li class="nav__list-item--sub">
+                        <a href="/Account/Withdrawal" class="ui-link">
+                            <p>Para Çekme</p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                    <li class="nav__list-item--sub">
+                        <a href="/Account/PendingWithdrawals" class="ui-link">
+                            <p>Bekleyen Para Çekme İşlemleri</p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav__list-item">
+                <button class="nav__dropdown-head ui-btn ui-shadow ui-corner-all">
+                    <span class="dynamic_icon with-badge "></span>
+                    <span>Teklifler</span>
+                </button>
+                <ul class="nav__list--sub">
+                    <li class="nav__list-item--sub">
+
+                        <a href="/Bonus/BonusHistory?scope=0" id="newBonuses" class="ui-link">
+                            <p>
+                                Yeni Bonuslar
+                            </p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                    <li class="nav__list-item--sub">
+                        <a href="/Bonus/ClientBonusReport" id="activeBonuses" class="ui-link">
+                            <p>
+                                Free Spins and Free Bets
+                            </p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                        <li class="nav__list-item--sub">
+                            <a href="/tr/Account/CheckPromoCode" id="CheckPromoCode" class="ui-link">
+                                <p>Promo Kod</p>
+                                <span class="link-arrow">›</span>
+                            </a>
+                        </li>
+                </ul>
+            </li>
+
+            <li class="nav__list-item">
+                <button class="nav__dropdown-head ui-btn ui-shadow ui-corner-all">
+                    <span class="dynamic_icon">
+                        
+                    </span>
+                    <span>
+                        Geçmiş
+                    </span>
+                </button>
+                <ul class="nav__list--sub">
+                    <li class="nav__list-item--sub">
+                        <a href="/Account/GameHistory" id="gameHistory" class="ui-link">
+                            <p>Oyun Geçmişi</p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                    <li class="nav__list-item--sub">
+                        <a href="/tr/Sport/ReactIndex#?popup=MyBets" class="MyBetssportversion ui-link">
+                            <p>Sport Bahis Geçmişi</p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                    <li class="nav__list-item--sub">
+                        <a href="/Account/TransactionsHistory" id="transactionsHistory" class="ui-link">
+                            <p>Finansal İşlemler</p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                    <li class="nav__list-item--sub">
+                        <a href="/Account/BalanceAdjustmentsHistory" class="ui-link">
+                            <p>Bakiye Düzeltmeleri</p>
+                            <span class="link-arrow">›</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li class="nav__list-item">
+                <a href="/Account/ResetPassword" class="nav__dropdown-head ui-link">
+                    <span class="dynamic_icon"></span>
+                    <span>Şifre değiştir</span>
+                </a>
+            </li>
+
+            <li class="nav__list-item">
+                <a href="/Account/LogOut" class="nav__dropdown-head ui-link" id="logout">
+                    <span class="dynamic_icon"></span>
+                    <span>Çıkış</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+</aside><script>
+    $(".js_right_menu_close").click(function () {
+        $("#right-panel").panel("close");
+    });
+
+    $(".nav__dropdown-head").click(function () {
+        this.parentElement.classList.toggle('opened');
+    });
+</script></div>
+
+
+        </div>
+        <?} else {?>
         <div id="right-panel" class="panel bgMain bg_right_panel "
              data-position="right"
              data-role="panel"
@@ -909,6 +1175,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 
         </div>
 
+    <?}?>
     </div>
     <div id="verification_popup"></div>
     <div id="info_div" style="display: none;"></div>
