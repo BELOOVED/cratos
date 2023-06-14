@@ -382,7 +382,7 @@ BalanceUpdater.start();    </script>
 <?php if(isset($us['id']))
 {?>
         <div id="menu-right" class="flex alCen ns jb">
-                <a class="btn_deposit ui-link" href="/Account/Deposit"></a>
+                <a class="btn_deposit ui-link" href="deposit"></a>
                 <a href="#right-panel" class="user pos_rel ui-link">
                     <i class="symbol ic cat_text_bg player_category_1">$</i>
                 </a>
