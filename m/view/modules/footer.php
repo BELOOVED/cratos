@@ -1149,7 +1149,7 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
 </body>
 </html>
 
-
+<?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
 
 <script type="text/javascript">
     $(document).bind('mobileinit', function () {
