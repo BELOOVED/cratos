@@ -1,6 +1,6 @@
 <div class="heading registration_heading">ÜYE KAYDI</div>
 
-<form action="/tr/Registration/Register1096" automation="register_form" id="registerForm" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="XnPJXCa-tQqN_bmsnEvI5AtzjHBAQI7UeuQB4jUuhm_kZVBxxokmQceTHcbvB4dHqThfrIwrcg3YPrk-z1kxuZUjInSCR-gZNh7if4HrSqw1"><input id="HidNumberCode" name="HidNumberCode" type="hidden" value=""><input id="CurrentStep" name="CurrentStep" type="hidden" value="">    <div class="register_left_banner">
+<form onsubmit="signUp()" automation="register_form" id="register_form" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="XnPJXCa-tQqN_bmsnEvI5AtzjHBAQI7UeuQB4jUuhm_kZVBxxokmQceTHcbvB4dHqThfrIwrcg3YPrk-z1kxuZUjInSCR-gZNh7if4HrSqw1"><input id="HidNumberCode" name="HidNumberCode" type="hidden" value=""><input id="CurrentStep" name="CurrentStep" type="hidden" value="">    <div class="register_left_banner">
 
         <div id="js_popup_banner_cont_382" class="swiper dynamicBanners banners_popup empty_banner swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden">
             <div class="banners_popup_slider swiper-wrapper" id="swiper-wrapper-f3f322cac2a682c4" aria-live="off" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
@@ -784,9 +784,7 @@
             </div>
         </div>
         <div class="D_reg_footer register_next_step flex">
-            <div class="back_box hidden">
-                <a data-role="none" id="js_back_btn" class="all_buttons_styles btn_sec " automation="back_button">Geri</a>
-            </div>
+            
             <div class="next_box">
                 <button type="button" data-role="none" id="continue_btn" onclick="next()" class="all_buttons_styles btn_prim" automation="next_button">Devam</button>
             </div>
@@ -808,4 +806,5 @@ function next() {
         $('#Fourth').removeClass('hidden');
     }
 }
+
 </script>
