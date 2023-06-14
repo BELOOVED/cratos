@@ -710,25 +710,9 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
             </div>
             <div class="r_login__row PlatformLoginPassContainer eye_block">
 <input Class="platformPassInput inp" autocomplete="off" automation="password_input" data-val="true" data-val-required="Lütfen şifrenizi giriniz." id="password" name="password" placeholder="Şifre" required="required" tabindex="2" type="password" />            </div>
-                    <div class="captcha login_captcha_block dis_none">
-                        <label class="reg__row_title">G&#252;venlik kodu: <span class="required-field">*</span></label>
-                        <div class="flex relative w-100">
-                            <div class="r_login__row captcha flex alCen jb">
-                                <input type="hidden" name="captcha-guid" value="82a1db45e05846f7b741fbb64839075a" />
-<img class='captchaImage' src="/Common/Captcha?guid=82a1db45e05846f7b741fbb64839075a&height=50&width=150" alt="CAPTCHA" width="150" height="50" /><div class='tl_refresh_container'><a class="refreshLoginCaptcha" title="Refresh"></a>
-                            </div>
-                            <div class="captcha_input_cont">
-                            </div>
-                        </div>
-                    </div>
-            <span class="field-validation-valid error warning warning-log dis_none" id="loginerrormessage"></span>
-            <div class="r_login__row warning dis_none">
-                <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
-                <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
-            </div>
-            <span class="dis_none loading_span" id="loadingSpan">Y&#252;kleniyor...</span>
+               
                 <div class="r_login__row">
-                    <a href="#" onclick="logIn()" class="platformLoginButton btn_prim tl_btn bg-primary" id="loginButton" automation="login_button">&#220;YE GİRİŞİ</a>
+                    <a href="javascript:;" onclick="logIn()" class="platformLoginButton btn_prim tl_btn bg-primary" id="loginButton" automation="login_button">&#220;YE GİRİŞİ</a>
                 </div>
                     <div class="r_login__row">
                         <a class="platformForgPass" href="#">Şifrenizi mi unuttunuz?</a>
