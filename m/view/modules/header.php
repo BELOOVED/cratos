@@ -94,6 +94,7 @@
 
 
     <script type="text/javascript" src="assets/Scripts/mobile/JQueryUI/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
     <script type="text/javascript">
         $(document).on("mobileinit", function () {/// init must before jquery.mobil link
             $.mobile.ajaxEnabled = false;
