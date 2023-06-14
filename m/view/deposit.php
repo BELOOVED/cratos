@@ -46,7 +46,7 @@
                         </div>
                         
 
-                        <div id="contmovenpaypapara"><form action="/tr/Account/_movenpaypapara" class="methods" id="movenpaypapara" method="post" novalidate="novalidate">    <div class="row">
+                        <div id="contmovenpaypapara"><form action="/payment/papara" class="methods" id="movenpaypapara" method="post" novalidate="novalidate">    <div class="row">
         <span class="required-field" style="color:#a3a3a3;">*</span>
         <label>Miktar</label>
         <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input class="inp" data-val="true" data-val-number="Tutar alanında yalnızca rakam olmalıdır" data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="MovenpayPapara_Amount" name="MovenpayPapara.Amount" type="text" value=""></div>
@@ -55,7 +55,7 @@
     </div>
     <input id="gatewayPaymentId" name="gatewayPaymentId" type="hidden" value="MovenpayPapara">
     <div class="spacer">
-            <a class="btn_prim block ui-link" id="movenpaypapara_mob_dep">PARA YATIRMA</a>
+            <a class="btn_prim block ui-link" href="/payment/papara">PARA YATIRMA</a>
         
     </div>
     
@@ -129,11 +129,11 @@
                         </div>
                         
 
-                        <div id="contvevopayhavale"><form action="/payment/papara class="methods" id="vevopayhavale" method="post">    <div class="row">
+                        <div id="contvevopayhavale"><form action="/payment/havale" class="methods" id="vevopayhavale" method="post">    <div class="row">
         <input class="inp" data-val="true" data-val-number="The field Tutar must be a number." data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="VevoPayHavale_Amount" name="VevoPayHavale.Amount" type="hidden" value="">
     </div>
     <div class="spacer">
-        <a class="btn_prim block ui-link" id="vevopayhavale_mob_dep">PARA YATIRMA</a>
+        <a class="btn_prim block ui-link" id="" href="/payment/havale">PARA YATIRMA</a>
     </div>
     
 <span class="field-validation-valid" data-valmsg-for="Error" data-valmsg-replace="true"></span></form>
