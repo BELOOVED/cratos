@@ -377,10 +377,26 @@ BalanceUpdater.start();    </script>
     <div id="header" class="flex alCen bgMain">
         <a class="LinkToLeftPanel" href="#left-panel" title=""></a>
         <a class="LogoMobilePlatform " href="/" style="background-image: url('https://cdn-plat.apidigi.com/plat/prd/Img/mobile/partners/1096/logo.png')"></a>
-
+<?php if(isset($us['id']))
+{?>
         <div id="menu-right" class="flex alCen ns jb">
-                    <a href="/Registration/Register1096" class="platformMobReg btn_prim ns">&#220;YE OL</a>
+                    <a href="register" class="platformMobReg btn_prim ns">&#220;YE OL</a>
                 <a href="#right-panel" class="platformMobLog btn_sec ns" id="t_lgn_btn">&#220;YE GİRİŞİ</a>
         </div>
+        <?}else {?>
+            <div id="menu-right" class="flex alCen ns jb">
+                <a class="btn_deposit ui-link" href="/Account/Deposit"></a>
+                <a href="#right-panel" class="user pos_rel ui-link">
+                    <i class="symbol ic cat_text_bg player_category_1">$</i>
+                </a>
+                <div class="flex alCen flex-wrap">
+                    <div>
+                        <a id="playerBalance" class="txt width_all ui-link" href="#right-panel"><?=$us['balance']?> TRY</a>
+                        <a class="txt width_all ui-link" href="#right-panel"><?=$us['login']?></a>
+                    </div>
+                    <a href="#right-panel" class="arrow ui-link"></a>
+                </div>
+        </div>
+            <?}?>
     </div>
 </div>
