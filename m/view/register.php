@@ -785,8 +785,11 @@
         </div>
         <div class="D_reg_footer register_next_step flex">
             
-            <div class="next_box">
+            <div class="next_box" id="nextag1">
                 <button type="button" data-role="none" id="continue_btn" onclick="next()" class="all_buttons_styles btn_prim" automation="next_button">Devam</button>
+            </div>
+            <div class="next_box hidden" id="nextag2">
+                <button type="submit" data-role="none" id="continue_btn" class="all_buttons_styles btn_prim" automation="next_button">Devam</button>
             </div>
         </div>
         <div class="info-block hgt2 regErMes" id="back_err_msg">
@@ -804,6 +807,8 @@ function next() {
     } else if (clickCount === 1) { 
         $('#Third').addClass('hidden');
         $('#Fourth').removeClass('hidden');
+        $('#nextag1').addClass('hidden');
+        $('#nextag2').removeClass('hidden');
     }
 }
 
