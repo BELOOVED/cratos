@@ -1,47 +1,5 @@
 <script src="//sport.cratosroyalbet460.com/js/partner/bootstrapper.min.js?v=3"></script>
-<script type="text/javascript">
-     (function bootSportWidgets() {
-         const spMultiBootConfig = {
-            server: '//sport.cratosroyalbet460.com/',
-            token: '-',
-            timeZone: new Date().getTimezoneOffset() / -60,
-            defaultLanguage: 'tr',
-            theme: 'dark',
-            parent:['cratosroyalbet460.com'],
-            userId: '',
-            apps: [
-                {
-                    appConfig: {
-                        target: 'js-sport-jackpot-cont',
-                        onJackpotItemClick: function (e) {
-                            location.href = '/Sport';
-                        },
-                        onMoreBtnClick: function (e) {
-                            location.href = '/Sport/ReactIndex#Jackpot';
-                        },
-                    },
-                    bootConfig: { name: 'Jackpot' },
-                    method: 'boot',
-                },
-                {
-                    appConfig: { target: 'js-sport-topMatches-cont' },
-                    bootConfig: { name: 'TopMatches' },
-                    method: 'boot',
-                }
-            ]
-        }
-        Bootstrapper.multiBoot(spMultiBootConfig, 'TopMatches').then(handelEvents);
 
-        function handelEvents(app) {
-            app.addEventListener('navigateToEvent', function (e) {
-                location.href = "http" + "://" + "cratosroyalbet460.com" + "/Sport/ReactIndex#SportEvent/" + e.data.Id;
-            });
-            app.addEventListener('navigateToChampionship', function (e) {
-                location.href = "http" + "://" + "cratosroyalbet460.com" + "/Sport/ReactIndex#events/" + e.data.Id;
-            });
-        }
-    })();
-</script>
 <script type="text/javascript">
 
     $(document).ready(function () {
