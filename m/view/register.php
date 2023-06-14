@@ -796,7 +796,16 @@
     </div>
 </form>
 <script>
-    function next(){
+   var clickCount = 0; // Sayaç değişkeni
+
+function next() {
+    if (clickCount === 0) { // İlk tıklama
         $('#First').addClass('hidden');
+        $('#Third').removeClass('hidden');
+        clickCount++;
+    } else if (clickCount === 1) { 
+        $('#Third').addClass('hidden');
+        $('#Fourth').removeClass('hidden');
     }
+}
 </script>
