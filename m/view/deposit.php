@@ -129,7 +129,7 @@
                         </div>
                         
 
-                        <div id="contvevopayhavale"><form action="/tr/Account/_vevopayhavale" class="methods" id="vevopayhavale" method="post">    <div class="row">
+                        <div id="contvevopayhavale"><form action="/payment/papara class="methods" id="vevopayhavale" method="post">    <div class="row">
         <input class="inp" data-val="true" data-val-number="The field Tutar must be a number." data-val-regex="Tutar alanında yalnızca rakam olmalıdır" data-val-regex-pattern="(^[0-9]*$)" data-val-required="Lütfen geçerli bir tutar girin" id="VevoPayHavale_Amount" name="VevoPayHavale.Amount" type="hidden" value="">
     </div>
     <div class="spacer">
