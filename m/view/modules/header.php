@@ -81,6 +81,7 @@
 
 
 <link href="assets/bundles/redesignMobile.css" rel="stylesheet"/>
+<link href="assets/bundles/sporticons.css" rel="stylesheet"/>
 
     <link href="assets/bundles/dynamicLobbyMobile.css" rel="stylesheet"/>
 
