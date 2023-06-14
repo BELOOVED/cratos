@@ -1139,12 +1139,8 @@ Bize yukarda belirtilen mail adreslerinden ulaşabilirsiniz
     <div id="info_div" style="display: none;"></div>
     <div id="game_info_div" style="display: none;"></div>
 <div id="comm100-button-bb65c9b1-e8d8-4496-8d3b-34c3af191f15"></div>
-<script type="text/javascript">
-    var Comm100API = Comm100API || {}; (function (t) {
-        function e(e) { var a = document.createElement("script"), c = document.getElementsByTagName("script")[0]; a.type = "text/javascript", a.async = !0, a.src = e + t.site_id, c.parentNode.insertBefore(a, c) }
-        t.chat_buttons = t.chat_buttons || [], t.chat_buttons.push({ code_plan: "bb65c9b1-e8d8-4496-8d3b-34c3af191f15", div_id: "comm100-button-bb65c9b1-e8d8-4496-8d3b-34c3af191f15" }), t.site_id = 90001146, t.main_code_plan = "bb65c9b1-e8d8-4496-8d3b-34c3af191f15", e("https://vue.comm100.com/livechat.ashx?siteId="), setTimeout(function () { t.loaded || e("https://standby.comm100vue.com/livechat.ashx?siteId=") }, 5e3)
-    })(Comm100API || {})
-</script>
+
+
             <div class="hidden to_top_cont" id="js_to_top_cont">
             <button class="to_top text-center" type="button" data-role="none" id="js_to_top">
                 <i class="dynamic_icon m-0">&#57600</i>
